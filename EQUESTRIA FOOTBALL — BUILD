@@ -1,0 +1,266 @@
+
+
+## Objective
+
+Build the football universe cleanly, with canonical data preserved, a stable SPA shell, synchronized seasonal progression, and mathematically valid continental competitions.
+
+---
+
+## 1) Immutable Canon Layer
+
+These objects are locked and must never be overwritten by procedural generation:
+
+* club names
+* stadium names and capacities
+* canonical player names
+* canonical player clubs
+* league names
+* federation names
+* national identities
+* club rivalries
+
+If a named player exists, he stays in his club. If a club exists, it stays in the world. If a stadium exists, its name and capacity stay fixed.
+
+---
+
+## 2) League Priorities
+
+Priority domestic leagues to build and maintain first:
+
+* Pro Liga Ishgar
+* Andro League (Brislovia)
+* La Liga (Javanie)
+* Juba Liga (Savanna)
+* Techno League (Bermudes)
+* Liga No’s (Desertiqua)
+* Liga One (Pays Trop Mignon)
+
+Other nations remain compatible with the same engine and can be added later.
+
+---
+
+## 3) Club Strength Tiers
+
+Use fixed strength bands so the world stays believable.
+
+* Top club: 87–88 average OVR
+* Strong club: 84–86 average OVR
+* Medium club: 80–83 average OVR
+* Weak club: 76–79 average OVR
+
+Generated squads must respect the band assigned to the club.
+
+---
+
+## 4) Player Generation Rules
+
+For clubs with incomplete squads:
+
+* keep all named canonical players exactly as provided
+* generate only missing players
+* preserve club identity and style
+* use the requested 38% local / 62% foreign mix
+* do not duplicate names across clubs
+* do not move a player to another club unless explicitly requested
+
+Generated players must fit the club’s nation, league, and visual identity.
+
+---
+
+## 5) Season Engine Rule
+
+All domestic leagues advance in parallel.
+No league-by-league manual progression.
+One season tick advances all active leagues, all ghost leagues, continental competitions, and global player stats together.
+
+At the end of a season:
+
+* domestic tables are finalized
+* continental qualification is resolved
+* awards are computed
+* the next season is prepared
+
+Every 4 seasons:
+
+* the Euro is played
+
+---
+
+## 6) Champions League Equestria (CLE) — Corrected Qualification System
+
+The CLE must reach a 36-club league phase with a mathematically clean qualification tree.
+
+### 6.1 Direct spots
+
+* 24 clubs qualify directly into the league phase.
+* These spots go to the strongest nations / clubs by coefficient.
+
+### 6.2 Remaining entrants
+
+* 120 clubs enter the qualification pathway.
+* They do not all start in the same round.
+* Entry is staggered by coefficient.
+
+### 6.3 Qualification path for the 120 clubs
+
+Use four knockout rounds with coefficient-based byes.
+
+Round 1:
+
+* 72 clubs play
+* 36 winners advance
+* 48 clubs receive byes to later rounds
+
+Round 2:
+
+* 36 winners + 24 byes = 60 clubs
+* 30 winners advance
+
+Round 3:
+
+* 30 winners + 6 byes = 36 clubs
+* 18 winners advance
+
+Round 4:
+
+* 18 winners + 6 byes = 24 clubs
+* 12 winners advance to the league phase
+
+### 6.4 Final CLE league phase
+
+* 24 direct clubs + 12 qualified clubs = 36 clubs total
+* each club plays 8 different opponents
+* top 8 qualify directly for the round of 16
+* places 9–24 go to the playoff round
+* places 25–36 are eliminated
+
+### 6.5 Knockout phase
+
+* playoff round: two-legged ties
+* round of 16: two-legged ties
+* quarterfinals: two-legged ties
+* semifinals: two-legged ties
+* final: single match on neutral ground
+* no away-goal rule
+
+This structure is the clean version. No fake repêchage, no mathematically forced leftovers.
+
+---
+
+## 7) Euro — Corrected Tournament Model
+
+* the Euro is held every 4 seasons
+* 26 players per nation are selected
+* one host nation is chosen
+* 24 teams participate
+* 6 groups of 4 teams
+* top 2 of each group advance
+* the 4 best third-place teams advance
+* knockout rounds are single-match elimination
+* the final is a single neutral match
+
+---
+
+## 8) Ballon d’Or Logic
+
+The Ballon d’Or must allow goalkeepers to win only through an exceptional season.
+
+### Score framework by role
+
+Attacking players:
+
+* goals are heavily weighted
+* assists are strongly weighted
+* match rating is important
+
+Midfielders:
+
+* goals, assists, control, and influence are weighted
+
+Defenders:
+
+* clean sheets, tackles, interceptions, and rating are weighted
+
+Goalkeepers:
+
+* clean sheets, saves, save percentage, decisive moments, and trophies are weighted
+
+### Rule
+
+A goalkeeper may win the Ballon d’Or only if the season is truly elite, usually combined with major team success.
+No role is blocked by default.
+No award must be assigned through a generic average that ignores position.
+
+---
+
+## 9) Awards Separation Rule
+
+Awards must be role-specific:
+
+* best goalkeeper
+* best defender
+* best midfielder
+* best attacker
+* best young player
+* top scorer
+* top assist
+* best overall player
+
+A goalkeeper should not automatically rank as the best defender.
+Role filters must be strict.
+
+---
+
+## 10) Match Engine Requirements
+
+* use a stable scoring model
+* preserve realistic goal distributions
+* store events: goals, assists, minutes, ratings, man of the match
+* apply positional assist coefficients
+* keep match reports readable
+* keep team OVR tied to the starting XI
+* maintain club form across the last five matches
+
+The engine must favor stronger clubs, but not eliminate upsets entirely.
+
+---
+
+## 11) SPA and Data Safety
+
+* single-file HTML only
+* vanilla JS only
+* internal routing only
+* localStorage persistence with versioning
+* safe fallback state if stored data is broken
+* visible hub on first load
+* no blank screen allowed
+* defensive error handling everywhere
+
+---
+
+## 12) Build Order
+
+1. canonical world data
+2. safe boot and visible hub
+3. league views
+4. clubs and squads
+5. match engine
+6. standings and results
+7. awards
+8. CLE
+9. Euro
+10. balancing and polish
+
+---
+
+## 13) Couche financiere
+
+* Chaque club a un budget par tier
+* Valeurs marchandes calculées à partir de l'OVR + âge (si tu l'implémentes un jour)
+* Le moteur propose 2-3 transferts par club en fin de saison
+* Tu peux accepter/refuser/négocier les tiens si tu joues un club
+* FFP simplifié : un club ne peut pas dépenser plus que ses revenus de la saison précédente
+
+## 14) Non-Negotiable Rule
+
+If a feature is not correct yet, it stays disabled rather than being shipped broken.
