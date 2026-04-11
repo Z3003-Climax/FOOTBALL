@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Equestria Football</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+/* ─── RESET & VARIABLES ─────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:   #080B10;
+  --dark:    #0D1117;
+  --surface: #141B24;
+  --panel:   #1A2332;
+  --border:  #1F2D3D;
+  --gold:    #C9A84C;
+  --gold2:   #E8C56D;
+  --amber:   #F59E0B;
+  --white:   #EEF2F7;
+  --muted:   #64748B;
+  --green:   #22C55E;
+  --red:     #EF4444;
+  --blue:    #3B82F6;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+}
+
+html,body{
+  height:100%;
+  background:var(--black);
+  color:var(--white);
+  font-family:var(--font-body);
+  overflow-x:hidden;
+}
+
+/* ─── SCROLLBAR ─────────────────────────────────────────── */
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--dark)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+
+/* ─── LAYOUT ────────────────────────────────────────────── */
+#app{ display:flex; flex-direction:column; min-height:100vh; }
+
+/* ─── TOPBAR ────────────────────────────────────────────── */
+#topbar{
+  position:fixed; top:0; left:0; right:0; z-index:100;
+  height:52px;
+  background:rgba(8,11,16,0.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  display:flex; align-items:center; padding:0 24px; gap:32px;
+}
+.logo{
+  font-family:var(--font-display);
+  font-size:22px; letter-spacing:2px;
+  color:var(--gold);
+  white-space:nowrap;
+  cursor:pointer;
+}
+.logo span{ color:var(--white); }
+
+nav{ display:flex; gap:4px; flex:1; }
+.nav-btn{
+  background:none; border:none;
+  color:var(--muted); font-family:var(--font-body);
+  font-size:13px; font-weight:500; letter-spacing:0.5px;
+  padding:6px 14px; border-radius:6px;
+  cursor:pointer; transition:all .18s;
+  white-space:nowrap;
+}
+.nav-btn:hover{ color:var(--white); background:var(--surface); }
+.nav-btn.active{ color:var(--gold); background:rgba(201,168,76,.1); }
+
+.season-badge{
+  font-family:var(--font-mono); font-size:11px;
+  color:var(--gold); background:rgba(201,168,76,.12);
+  border:1px solid rgba(201,168,76,.3);
+  padding:4px 12px; border-radius:20px;
+  white-space:nowrap; margin-left:auto;
+}
+
+/* ─── MAIN ──────────────────────────────────────────────── */
+#main{
+  margin-top:52px; flex:1;
+  padding:32px 24px;
+  max-width:1400px; width:100%;
+  margin-left:auto; margin-right:auto;
+  margin-top:84px;
+}
+
+/* ─── VIEWS ─────────────────────────────────────────────── */
+.view{ display:none; animation:fadeIn .25s ease; }
+.view.active{ display:block; }
+@keyframes fadeIn{ from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+
+/* ─── HUB ───────────────────────────────────────────────── */
+.hub-hero{
+  position:relative; margin-bottom:40px;
+  padding:48px 40px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:16px; overflow:hidden;
+}
+.hub-hero::before{
+  content:''; position:absolute; inset:0;
+  background:
+    radial-gradient(ellipse 60% 80% at 100% 50%, rgba(201,168,76,.08) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 0% 80%, rgba(59,130,246,.05) 0%, transparent 60%);
+}
+.hub-hero-bg{
+  position:absolute; right:-20px; top:50%; transform:translateY(-50%);
+  font-family:var(--font-display); font-size:180px;
+  color:rgba(255,255,255,.02); letter-spacing:-4px;
+  pointer-events:none; user-select:none;
+}
+.hub-title{
+  font-family:var(--font-display);
+  font-size:clamp(36px,5vw,64px);
+  letter-spacing:3px; line-height:1;
+  color:var(--white); position:relative;
+}
+.hub-title .accent{ color:var(--gold); }
+.hub-subtitle{
+  color:var(--muted); font-size:14px; margin-top:10px;
+  font-weight:400; letter-spacing:0.5px; position:relative;
+}
+.hub-stats-row{
+  display:flex; gap:24px; margin-top:28px; position:relative;
+}
+.hub-stat{
+  display:flex; flex-direction:column; gap:2px;
+}
+.hub-stat .val{
+  font-family:var(--font-display); font-size:28px;
+  color:var(--gold); letter-spacing:1px;
+}
+.hub-stat .lbl{
+  font-size:11px; color:var(--muted); letter-spacing:1px;
+  text-transform:uppercase; font-weight:500;
+}
+
+/* ─── SECTION TITLES ─────────────────────────────────────── */
+.section-header{
+  display:flex; align-items:center; gap:12px;
+  margin-bottom:20px;
+}
+.section-title{
+  font-family:var(--font-display);
+  font-size:22px; letter-spacing:2px;
+  color:var(--white);
+}
+.section-line{
+  flex:1; height:1px; background:var(--border);
+}
+.section-tag{
+  font-family:var(--font-mono); font-size:10px;
+  color:var(--muted); letter-spacing:1px;
+}
+
+/* ─── LEAGUE GRID ────────────────────────────────────────── */
+.league-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:16px; margin-bottom:40px;
+}
+.league-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:12px; overflow:hidden;
+  cursor:pointer; transition:all .2s;
+  position:relative;
+}
+.league-card:hover{
+  border-color:var(--gold);
+  transform:translateY(-2px);
+  box-shadow:0 8px 32px rgba(201,168,76,.12);
+}
+.league-card-header{
+  padding:20px 20px 16px;
+  display:flex; align-items:flex-start; gap:14px;
+}
+.league-emblem{
+  width:48px; height:48px; border-radius:8px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:22px; flex-shrink:0;
+}
+.league-info{ flex:1; min-width:0; }
+.league-name{
+  font-family:var(--font-display); font-size:18px;
+  letter-spacing:1px; color:var(--white);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.league-nation{
+  font-size:12px; color:var(--muted); margin-top:2px;
+  font-weight:500; letter-spacing:0.5px;
+}
+.league-fed{
+  font-family:var(--font-mono); font-size:10px;
+  color:var(--gold); background:rgba(201,168,76,.1);
+  border:1px solid rgba(201,168,76,.2);
+  padding:2px 8px; border-radius:4px; margin-top:6px;
+  display:inline-block;
+}
+.league-card-footer{
+  padding:12px 20px;
+  border-top:1px solid var(--border);
+  display:flex; gap:20px;
+}
+.lstat{ display:flex; flex-direction:column; gap:1px; }
+.lstat .v{
+  font-family:var(--font-mono); font-size:16px;
+  font-weight:500; color:var(--white);
+}
+.lstat .l{
+  font-size:10px; color:var(--muted);
+  text-transform:uppercase; letter-spacing:0.8px;
+}
+.league-accent-bar{
+  height:3px; width:100%;
+}
+
+/* ─── TOP CLUBS ──────────────────────────────────────────── */
+.top-clubs-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:12px; margin-bottom:40px;
+}
+.club-card{
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:10px; padding:16px;
+  cursor:pointer; transition:all .18s;
+  display:flex; align-items:center; gap:12px;
+}
+.club-card:hover{
+  border-color:rgba(201,168,76,.4);
+  background:var(--panel);
+}
+.club-icon{
+  width:36px; height:36px; border-radius:6px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; flex-shrink:0;
+  background:var(--panel);
+}
+.club-card-info{ flex:1; min-width:0; }
+.club-card-name{
+  font-size:13px; font-weight:600; color:var(--white);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.club-card-meta{
+  font-size:11px; color:var(--muted); margin-top:2px;
+}
+.club-tier-dot{
+  width:6px; height:6px; border-radius:50%; flex-shrink:0;
+}
+
+/* ─── CLE BRACKET DISPLAY ────────────────────────────────── */
+.cle-card{
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:12px; overflow:hidden; margin-bottom:40px;
+}
+.cle-header{
+  padding:20px 24px;
+  background:linear-gradient(90deg,rgba(201,168,76,.1),transparent);
+  border-bottom:1px solid var(--border);
+  display:flex; align-items:center; gap:12px;
+}
+.cle-title{
+  font-family:var(--font-display); font-size:20px;
+  letter-spacing:2px; color:var(--gold);
+}
+.cle-body{ padding:24px; }
+.cle-phases{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px;
+}
+.cle-phase{
+  background:var(--panel); border:1px solid var(--border);
+  border-radius:8px; padding:14px;
+  transition:border-color .2s;
+}
+.cle-phase:hover{ border-color:var(--gold); }
+.phase-name{
+  font-family:var(--font-mono); font-size:10px;
+  color:var(--gold); letter-spacing:1px;
+  text-transform:uppercase; margin-bottom:8px;
+}
+.phase-row{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:3px 0;
+  font-size:12px; color:var(--muted);
+}
+.phase-row .val{ color:var(--white); font-weight:500; }
+
+/* ─── LOADING SCREEN ─────────────────────────────────────── */
+#loader{
+  position:fixed; inset:0; z-index:200;
+  background:var(--black);
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:20px;
+}
+.loader-logo{
+  font-family:var(--font-display); font-size:42px;
+  letter-spacing:4px; color:var(--gold);
+}
+.loader-logo span{ color:var(--white); }
+.loader-bar{
+  width:200px; height:2px; background:var(--border);
+  border-radius:2px; overflow:hidden;
+}
+.loader-progress{
+  height:100%; background:var(--gold);
+  border-radius:2px;
+  animation:loadBar 1.2s ease forwards;
+}
+@keyframes loadBar{
+  0%{width:0%} 60%{width:70%} 100%{width:100%}
+}
+.loader-text{
+  font-family:var(--font-mono); font-size:11px;
+  color:var(--muted); letter-spacing:2px;
+}
+
+/* ─── ERROR SCREEN ───────────────────────────────────────── */
+#error-screen{
+  display:none; position:fixed; inset:0; z-index:300;
+  background:var(--black);
+  align-items:center; justify-content:center;
+  flex-direction:column; gap:16px;
+}
+#error-screen.visible{ display:flex; }
+.error-code{
+  font-family:var(--font-display); font-size:80px;
+  color:var(--red); opacity:.4; letter-spacing:4px;
+}
+.error-msg{
+  font-size:16px; color:var(--muted); text-align:center;
+  max-width:400px; line-height:1.6;
+}
+.error-btn{
+  background:var(--gold); color:var(--black);
+  border:none; border-radius:8px;
+  font-family:var(--font-body); font-weight:600;
+  padding:10px 28px; cursor:pointer; margin-top:8px;
+  font-size:14px; transition:opacity .2s;
+}
+.error-btn:hover{ opacity:.85; }
+
+/* ─── LEAGUE VIEW ────────────────────────────────────────── */
+.league-view-header{
+  display:flex; align-items:center; gap:16px; margin-bottom:28px;
+}
+.back-btn{
+  background:var(--surface); border:1px solid var(--border);
+  color:var(--muted); border-radius:8px;
+  padding:8px 16px; cursor:pointer; font-size:13px;
+  font-family:var(--font-body); transition:all .18s;
+}
+.back-btn:hover{ color:var(--white); border-color:var(--gold); }
+
+.league-view-title{
+  font-family:var(--font-display); font-size:32px;
+  letter-spacing:2px; color:var(--white);
+}
+.league-view-nation{
+  font-size:13px; color:var(--muted); margin-top:2px;
+}
+
+.standings-table{
+  width:100%; border-collapse:collapse;
+  background:var(--surface);
+  border:1px solid var(--border); border-radius:12px;
+  overflow:hidden;
+}
+.standings-table th{
+  background:var(--panel); padding:10px 14px;
+  text-align:left; font-size:11px;
+  text-transform:uppercase; letter-spacing:1px;
+  color:var(--muted); font-weight:500;
+  border-bottom:1px solid var(--border);
+}
+.standings-table td{
+  padding:10px 14px; font-size:13px;
+  border-bottom:1px solid rgba(31,45,61,.6);
+}
+.standings-table tr:last-child td{ border-bottom:none; }
+.standings-table tr:hover td{ background:rgba(255,255,255,.02); }
+.pos-num{
+  font-family:var(--font-mono); font-weight:500;
+  color:var(--muted); width:32px;
+}
+.pos-num.top{ color:var(--gold); }
+.pos-num.rel{ color:var(--red); }
+.club-row-name{ font-weight:600; }
+.tier-badge{
+  display:inline-block; font-size:9px;
+  text-transform:uppercase; letter-spacing:1px;
+  padding:1px 6px; border-radius:3px; font-weight:600;
+  vertical-align:middle; margin-left:6px;
+}
+.tier-top    { background:rgba(201,168,76,.15); color:var(--gold); }
+.tier-fort   { background:rgba(59,130,246,.15); color:#60A5FA; }
+.tier-moyen  { background:rgba(100,116,139,.15); color:var(--muted); }
+.tier-faible { background:rgba(239,68,68,.15); color:#F87171; }
+
+/* ─── UTILS ──────────────────────────────────────────────── */
+.pill{
+  display:inline-flex; align-items:center; gap:4px;
+  font-family:var(--font-mono); font-size:10px;
+  padding:3px 10px; border-radius:20px;
+}
+.pill-gold{ background:rgba(201,168,76,.12); color:var(--gold); border:1px solid rgba(201,168,76,.2); }
+.pill-blue{ background:rgba(59,130,246,.12); color:#60A5FA; border:1px solid rgba(59,130,246,.2); }
+.pill-green{ background:rgba(34,197,94,.12); color:var(--green); border:1px solid rgba(34,197,94,.2); }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media(max-width:768px){
+  .hub-hero{ padding:32px 20px; }
+  .hub-stats-row{ flex-wrap:wrap; gap:16px; }
+  nav .nav-btn:nth-child(n+4){ display:none; }
+  .league-grid{ grid-template-columns:1fr; }
+  #main{ padding:20px 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ─── ERROR FALLBACK ──────────────────────────────────── -->
+<div id="error-screen">
+  <div class="error-code">503</div>
+  <div class="error-msg" id="error-msg">Impossible de charger les données canoniques. Assurez-vous que canon.js est dans le même dossier.</div>
+  <button class="error-btn" onclick="location.reload()">Réessayer</button>
+</div>
+
+<!-- ─── LOADER ──────────────────────────────────────────── -->
+<div id="loader">
+  <div class="loader-logo">EQUESTRIA <span>FOOTBALL</span></div>
+  <div class="loader-bar"><div class="loader-progress"></div></div>
+  <div class="loader-text" id="loader-text">CHARGEMENT DU MONDE...</div>
+</div>
+
+<!-- ─── APP SHELL ───────────────────────────────────────── -->
+<div id="app" style="display:none">
+
+  <!-- Topbar -->
+  <div id="topbar">
+    <div class="logo" onclick="navigate('hub')">EQ <span>FOOTBALL</span></div>
+    <nav>
+      <button class="nav-btn active" onclick="navigate('hub')">Hub</button>
+      <button class="nav-btn" onclick="navigate('leagues')">Ligues</button>
+      <button class="nav-btn" onclick="navigate('clubs')">Clubs</button>
+      <button class="nav-btn" onclick="navigate('cle')">CLE</button>
+      <button class="nav-btn" onclick="navigate('euro')">Euro</button>
+      <button class="nav-btn" onclick="navigate('awards')">Awards</button>
+    </nav>
+    <div class="season-badge" id="season-badge">SAISON 2025</div>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- ─── HUB VIEW ──────────────────────────────────────── -->
+    <div class="view active" id="view-hub">
+
+      <!-- Hero -->
+      <div class="hub-hero">
+        <div class="hub-hero-bg">EQ</div>
+        <div class="hub-title">
+          EQUESTRIA<br><span class="accent">FOOTBALL</span>
+        </div>
+        <div class="hub-subtitle">Simulation continentale — 7 championnats — 1 univers</div>
+        <div class="hub-stats-row" id="hub-stats"></div>
+      </div>
+
+      <!-- Leagues -->
+      <div class="section-header">
+        <div class="section-title">CHAMPIONNATS</div>
+        <div class="section-line"></div>
+        <div class="section-tag">7 LIGUES ACTIVES</div>
+      </div>
+      <div class="league-grid" id="league-grid"></div>
+
+      <!-- Top Clubs -->
+      <div class="section-header">
+        <div class="section-title">CLUBS D'ÉLITE</div>
+        <div class="section-line"></div>
+        <div class="section-tag">TOP CONTINENTAL</div>
+      </div>
+      <div class="top-clubs-grid" id="top-clubs-grid"></div>
+
+      <!-- CLE Preview -->
+      <div class="section-header">
+        <div class="section-title">CHAMPIONS LEAGUE EQUESTRIA</div>
+        <div class="section-line"></div>
+        <span class="pill pill-gold">CLE</span>
+      </div>
+      <div id="cle-preview"></div>
+
+    </div><!-- /hub -->
+
+    <!-- ─── LEAGUES VIEW ───────────────────────────────────── -->
+    <div class="view" id="view-leagues">
+      <div class="section-header">
+        <div class="section-title">TOUTES LES LIGUES</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="league-grid" id="leagues-all-grid"></div>
+    </div>
+
+    <!-- ─── LEAGUE DETAIL VIEW ────────────────────────────── -->
+    <div class="view" id="view-league-detail">
+      <div class="league-view-header">
+        <button class="back-btn" onclick="navigate('leagues')">← Ligues</button>
+        <div>
+          <div class="league-view-title" id="detail-league-name">—</div>
+          <div class="league-view-nation" id="detail-league-nation">—</div>
+        </div>
+        <div style="margin-left:auto">
+          <span class="pill pill-gold" id="detail-league-fed">—</span>
+        </div>
+      </div>
+      <table class="standings-table" id="detail-standings">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Club</th>
+            <th>Tier</th>
+            <th>Stad.</th>
+            <th>Cap.</th>
+            <th>OVR</th>
+          </tr>
+        </thead>
+        <tbody id="detail-standings-body"></tbody>
+      </table>
+    </div>
+
+    <!-- ─── CLUBS VIEW ─────────────────────────────────────── -->
+    <div class="view" id="view-clubs">
+      <div class="section-header">
+        <div class="section-title">TOUS LES CLUBS</div>
+        <div class="section-line"></div>
+        <div class="section-tag" id="clubs-count-tag">— CLUBS</div>
+      </div>
+      <div id="clubs-filter-bar" style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;"></div>
+      <div class="top-clubs-grid" id="clubs-all-grid"></div>
+    </div>
+
+    <!-- ─── CLE VIEW ───────────────────────────────────────── -->
+    <div class="view" id="view-cle">
+      <div class="section-header">
+        <div class="section-title">CHAMPIONS LEAGUE EQUESTRIA</div>
+        <div class="section-line"></div>
+        <span class="pill pill-gold">CLE</span>
+      </div>
+      <div id="cle-full"></div>
+    </div>
+
+    <!-- ─── EURO VIEW ──────────────────────────────────────── -->
+    <div class="view" id="view-euro">
+      <div class="section-header">
+        <div class="section-title">EURO EQUESTRIA</div>
+        <div class="section-line"></div>
+        <span class="pill pill-blue">EURO</span>
+      </div>
+      <div id="euro-full"></div>
+    </div>
+
+    <!-- ─── AWARDS VIEW ────────────────────────────────────── -->
+    <div class="view" id="view-awards">
+      <div class="section-header">
+        <div class="section-title">PALMARÈS & AWARDS</div>
+        <div class="section-line"></div>
+        <span class="pill pill-green">🏆</span>
+      </div>
+      <div style="color:var(--muted);font-size:14px;padding:40px 0;text-align:center">
+        Les awards seront disponibles après la première saison simulée.
+      </div>
+    </div>
+
+  </div><!-- /main -->
+</div><!-- /app -->
+
+<!-- ─── CANON DATA ───────────────────────────────────────── -->
+<script src="canon.js"></script>
+
+<!-- ─── ENGINE ──────────────────────────────────────────── -->
+<script>
+'use strict';
+
+// ─── CONSTANTS ────────────────────────────────────────────
+const APP_VERSION = '1.0.0';
+const STORAGE_KEY = 'eq_football_state';
+
+// League colors & emojis
+const LEAGUE_META = {
+  PRO_LIGA:      { emoji:'⚔️',  color:'#C9A84C', country:'Ishgar'         },
+  LA_LIGA:       { emoji:'🌿',  color:'#22C55E', country:'Javanie'        },
+  ANDRO_LEAGUE:  { emoji:'❄️',  color:'#3B82F6', country:'Brislovia'      },
+  JUBA_LIGA:     { emoji:'🌍',  color:'#F59E0B', country:'Savanna'        },
+  TECHNO_LEAGUE: { emoji:'🌊',  color:'#06B6D4', country:'Bermudes'       },
+  LIGA_NOS:      { emoji:'🏜️', color:'#EF4444', country:'Desertiqua'     },
+  LIGA_ONE:      { emoji:'🌸',  color:'#A78BFA', country:'Pays Trop Mignon'},
+};
+
+const TIER_ORDER = { top:0, fort:1, moyen:2, faible:3 };
+
+const TOP_CLUBS = [
+  'BAYERN_ILUMYSS','FAIRY_TAIL','WONDER_BALLT','AJAX_FARWEST',
+  'JUVENTUS_EARTH','BOURRUSIA_BOUVILLE','ETOILE_ROUGE_BLASE','GALAXYS_PARIS',
+  'SUPA_STRIKA','HOLE_GEULCH_MI_ROSA','FENRIR','BERU_FC',
+  'OLFRA_KE_CONGERE','PORT_YONEUVE','SSC_NESERT_WERT','FC_ZANZIBAR',
+  'GEARS_PONEYS','SHADOW_BALLT','BLACKS_CLOVER','BRISBANE_ROAR',
+];
+
+const CLUB_EMOJIS = ['⚽','🦅','🐺','🦁','🌟','🔥','💎','⚡','🏆','🛡','🦊','🐉','👑','🌙','🎯','🌊'];
+
+// ─── STATE ─────────────────────────────────────────────────
+let STATE = {
+  version: APP_VERSION,
+  season: 2025,
+  currentView: 'hub',
+  currentLeague: null,
+};
+
+// ─── STORAGE ───────────────────────────────────────────────
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE));
+  } catch(e) { console.warn('Storage write failed', e); }
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    const saved = JSON.parse(raw);
+    if (saved.version !== APP_VERSION) {
+      console.info('Version mismatch — resetting state');
+      localStorage.removeItem(STORAGE_KEY);
+      return;
+    }
+    STATE = { ...STATE, ...saved };
+  } catch(e) {
+    console.warn('State corrupted — resetting', e);
+    localStorage.removeItem(STORAGE_KEY);
+  }
+}
+
+// ─── CANON ACCESS ──────────────────────────────────────────
+function getCanon() {
+  if (typeof CANON === 'undefined') return null;
+  return CANON;
+}
+
+function getClubPlayers(clubId) {
+  const canon = getCanon();
+  if (!canon) return [];
+  return Object.values(canon.players).filter(p => p.club === clubId);
+}
+
+function getClubAvgOVR(clubId) {
+  const players = getClubPlayers(clubId);
+  if (!players.length) return 0;
+  const starters = players.filter(p => p.ovr >= 75).slice(0,11);
+  if (!starters.length) return 0;
+  return Math.round(starters.reduce((s,p) => s + p.ovr, 0) / starters.length);
+}
+
+function getLeagueClubs(leagueId) {
+  const canon = getCanon();
+  if (!canon) return [];
+  return Object.values(canon.clubs)
+    .filter(c => c.league === leagueId)
+    .sort((a,b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier]);
+}
+
+// ─── ROUTER ────────────────────────────────────────────────
+function navigate(view, param) {
+  // Hide all views
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+  STATE.currentView = view;
+  STATE.currentLeague = param || null;
+  saveState();
+
+  // Show target view
+  const viewEl = document.getElementById(`view-${view}`);
+  if (viewEl) viewEl.classList.add('active');
+
+  // Highlight nav
+  const navMap = {
+    hub:'Hub', leagues:'Ligues', clubs:'Clubs',
+    cle:'CLE', euro:'Euro', awards:'Awards',
+    'league-detail':'Ligues'
+  };
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    if (b.textContent.trim() === navMap[view]) b.classList.add('active');
+  });
+
+  // Render view
+  if (view === 'hub')            renderHub();
+  if (view === 'leagues')        renderLeagues();
+  if (view === 'league-detail')  renderLeagueDetail(param);
+  if (view === 'clubs')          renderClubs();
+  if (view === 'cle')            renderCLE();
+  if (view === 'euro')           renderEuro();
+
+  window.scrollTo(0, 0);
+}
+
+// ─── RENDER: HUB ───────────────────────────────────────────
+function renderHub() {
+  const canon = getCanon();
+  if (!canon) return;
+
+  const clubs   = Object.values(canon.clubs);
+  const players = Object.values(canon.players);
+  const leagues = Object.values(canon.leagues);
+
+  // Stats row
+  const statsEl = document.getElementById('hub-stats');
+  statsEl.innerHTML = [
+    { val: leagues.length,    lbl: 'Ligues' },
+    { val: clubs.length,      lbl: 'Clubs'  },
+    { val: players.length.toLocaleString(), lbl: 'Joueurs' },
+    { val: STATE.season,      lbl: 'Saison' },
+    { val: canon.rivalries.length, lbl: 'Derbys' },
+  ].map(s => `
+    <div class="hub-stat">
+      <span class="val">${s.val}</span>
+      <span class="lbl">${s.lbl}</span>
+    </div>
+  `).join('');
+
+  // League grid
+  const leagueGrid = document.getElementById('league-grid');
+  leagueGrid.innerHTML = Object.entries(canon.leagues).map(([id, lg]) => {
+    const meta = LEAGUE_META[id] || { emoji:'🏆', color:'#C9A84C', country:lg.nation };
+    const clubs = getLeagueClubs(id);
+    return `
+    <div class="league-card" onclick="navigate('league-detail','${id}')">
+      <div class="league-accent-bar" style="background:${meta.color}"></div>
+      <div class="league-card-header">
+        <div class="league-emblem" style="background:${meta.color}22;">${meta.emoji}</div>
+        <div class="league-info">
+          <div class="league-name">${lg.name}</div>
+          <div class="league-nation">${meta.country}</div>
+          <div class="league-fed">${lg.federation}</div>
+        </div>
+      </div>
+      <div class="league-card-footer">
+        <div class="lstat"><div class="v">${clubs.length}</div><div class="l">Clubs</div></div>
+        <div class="lstat"><div class="v">${clubs.filter(c=>c.tier==='top').length}</div><div class="l">Top tier</div></div>
+        <div class="lstat"><div class="v">${canon.rivalries.filter(r=>r.league===id).length}</div><div class="l">Derbys</div></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Top clubs
+  const topGrid = document.getElementById('top-clubs-grid');
+  topGrid.innerHTML = TOP_CLUBS.map((cid, i) => {
+    const club = canon.clubs[cid];
+    if (!club) return '';
+    const meta = LEAGUE_META[club.league] || { color:'#C9A84C' };
+    const avg = getClubAvgOVR(cid);
+    return `
+    <div class="club-card" onclick="navigate('league-detail','${club.league}')">
+      <div class="club-icon">${CLUB_EMOJIS[i % CLUB_EMOJIS.length]}</div>
+      <div class="club-card-info">
+        <div class="club-card-name">${club.name}</div>
+        <div class="club-card-meta">${club.stadium} · OVR ${avg}</div>
+      </div>
+      <div class="club-tier-dot" style="background:${meta.color}"></div>
+    </div>`;
+  }).join('');
+
+  // CLE Preview
+  renderCLECard('cle-preview', true);
+}
+
+// ─── RENDER: LEAGUES ───────────────────────────────────────
+function renderLeagues() {
+  const canon = getCanon();
+  if (!canon) return;
+  const grid = document.getElementById('leagues-all-grid');
+  grid.innerHTML = Object.entries(canon.leagues).map(([id, lg]) => {
+    const meta = LEAGUE_META[id] || { emoji:'🏆', color:'#C9A84C', country:lg.nation };
+    const clubs = getLeagueClubs(id);
+    return `
+    <div class="league-card" onclick="navigate('league-detail','${id}')">
+      <div class="league-accent-bar" style="background:${meta.color}"></div>
+      <div class="league-card-header">
+        <div class="league-emblem" style="background:${meta.color}22;">${meta.emoji}</div>
+        <div class="league-info">
+          <div class="league-name">${lg.name}</div>
+          <div class="league-nation">${meta.country}</div>
+          <div class="league-fed">${lg.federation}</div>
+        </div>
+      </div>
+      <div class="league-card-footer">
+        <div class="lstat"><div class="v">${clubs.length}</div><div class="l">Clubs</div></div>
+        <div class="lstat"><div class="v">${clubs.filter(c=>c.tier==='top').length}</div><div class="l">Elite</div></div>
+        <div class="lstat"><div class="v">${canon.rivalries.filter(r=>r.league===id).length}</div><div class="l">Derbys</div></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ─── RENDER: LEAGUE DETAIL ─────────────────────────────────
+function renderLeagueDetail(leagueId) {
+  const canon = getCanon();
+  if (!canon || !leagueId) return;
+
+  const league = canon.leagues[leagueId];
+  if (!league) { navigate('leagues'); return; }
+
+  const meta = LEAGUE_META[leagueId] || { color:'#C9A84C', country:league.nation };
+  document.getElementById('detail-league-name').textContent = league.name;
+  document.getElementById('detail-league-name').style.color = meta.color;
+  document.getElementById('detail-league-nation').textContent = meta.country;
+  document.getElementById('detail-league-fed').textContent = league.federation;
+
+  const clubs = getLeagueClubs(leagueId);
+  const tbody = document.getElementById('detail-standings-body');
+
+  tbody.innerHTML = clubs.map((club, i) => {
+    const pos = i + 1;
+    const posClass = pos <= 3 ? 'top' : (pos > clubs.length - 3 ? 'rel' : '');
+    const avg = getClubAvgOVR(club.id);
+    const cap = club.capacity ? club.capacity.toLocaleString() : '—';
+    return `
+    <tr>
+      <td><span class="pos-num ${posClass}">${pos}</span></td>
+      <td><span class="club-row-name">${club.name}</span></td>
+      <td><span class="tier-badge tier-${club.tier}">${club.tier}</span></td>
+      <td style="color:var(--muted);font-size:12px">${club.stadium || '—'}</td>
+      <td style="color:var(--muted);font-family:var(--font-mono);font-size:12px">${cap}</td>
+      <td style="font-family:var(--font-mono);color:${avg >= 85 ? 'var(--gold)' : 'var(--white)'}">${avg || '—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ─── RENDER: CLUBS ─────────────────────────────────────────
+function renderClubs() {
+  const canon = getCanon();
+  if (!canon) return;
+
+  const all = Object.values(canon.clubs);
+  document.getElementById('clubs-count-tag').textContent = `${all.length} CLUBS`;
+
+  // Filter bar
+  const filterBar = document.getElementById('clubs-filter-bar');
+  filterBar.innerHTML = ['Tous','top','fort','moyen','faible'].map((f,i) => `
+    <button onclick="filterClubs('${f}')"
+      style="background:var(--surface);border:1px solid var(--border);color:var(--muted);
+             border-radius:6px;padding:6px 14px;cursor:pointer;font-size:12px;
+             font-family:var(--font-body);transition:all .18s"
+      id="filter-btn-${f}">${f === 'Tous' ? 'Tous' : f.charAt(0).toUpperCase()+f.slice(1)}</button>
+  `).join('');
+
+  window.filterClubs = function(tier) {
+    const filtered = tier === 'Tous' ? all : all.filter(c => c.tier === tier);
+    renderClubsGrid(filtered);
+    document.querySelectorAll('[id^=filter-btn-]').forEach(b => {
+      b.style.color = 'var(--muted)';
+      b.style.borderColor = 'var(--border)';
+    });
+    const active = document.getElementById(`filter-btn-${tier}`);
+    if (active) { active.style.color='var(--gold)'; active.style.borderColor='rgba(201,168,76,.4)'; }
+  };
+
+  renderClubsGrid(all);
+}
+
+function renderClubsGrid(clubs) {
+  const grid = document.getElementById('clubs-all-grid');
+  grid.innerHTML = clubs.map((club, i) => {
+    const meta = LEAGUE_META[club.league] || { color:'#C9A84C' };
+    const avg = getClubAvgOVR(club.id);
+    return `
+    <div class="club-card" onclick="navigate('league-detail','${club.league}')">
+      <div class="club-icon">${CLUB_EMOJIS[i % CLUB_EMOJIS.length]}</div>
+      <div class="club-card-info">
+        <div class="club-card-name">${club.name}</div>
+        <div class="club-card-meta">${club.nation} · OVR ${avg}</div>
+      </div>
+      <div class="club-tier-dot" style="background:${meta.color}"></div>
+    </div>`;
+  }).join('');
+}
+
+// ─── RENDER: CLE CARD ──────────────────────────────────────
+function renderCLECard(containerId, mini=false) {
+  const canon = getCanon();
+  if (!canon) return;
+  const cle = canon.cle;
+  const el = document.getElementById(containerId);
+
+  const phases = cle.rounds.map(r => `
+    <div class="cle-phase">
+      <div class="phase-name">${r.name}</div>
+      <div class="phase-row"><span>Entrants</span><span class="val">${r.entrants}</span></div>
+      <div class="phase-row"><span>Byes</span><span class="val">${r.byes}</span></div>
+      <div class="phase-row"><span>Éliminés</span><span class="val">${r.eliminated}</span></div>
+      <div class="phase-row"><span>Qualifiés</span><span class="val">${r.advance}</span></div>
+    </div>`).join('');
+
+  const direct = `
+    <div class="cle-phase" style="border-color:var(--gold)">
+      <div class="phase-name" style="color:var(--gold)">Phase de ligue</div>
+      <div class="phase-row"><span>Directs</span><span class="val">24</span></div>
+      <div class="phase-row"><span>Qualifiés</span><span class="val">12</span></div>
+      <div class="phase-row"><span>Total clubs</span><span class="val">36</span></div>
+      <div class="phase-row"><span>Matchs chacun</span><span class="val">8</span></div>
+    </div>`;
+
+  el.innerHTML = `
+  <div class="cle-card">
+    <div class="cle-header">
+      <span style="font-size:24px">🏆</span>
+      <span class="cle-title">${cle.name}</span>
+      <span class="pill pill-gold" style="margin-left:auto">120 → 12 qualifiés</span>
+    </div>
+    <div class="cle-body">
+      <div class="cle-phases">
+        ${phases}
+        ${direct}
+      </div>
+    </div>
+  </div>`;
+}
+
+// ─── RENDER: CLE FULL ──────────────────────────────────────
+function renderCLE() {
+  renderCLECard('cle-full', false);
+  const el = document.getElementById('cle-full');
+  const extra = document.createElement('div');
+  extra.style.cssText = 'margin-top:20px';
+  extra.innerHTML = `
+  <div class="cle-card">
+    <div class="cle-header">
+      <span style="font-size:20px">🗓️</span>
+      <span class="cle-title">PHASE À ÉLIMINATION DIRECTE</span>
+    </div>
+    <div class="cle-body">
+      <div class="cle-phases">
+        ${['Playoff Round','Huitièmes','Quarts','Demies','Finale'].map((s,i) => `
+        <div class="cle-phase">
+          <div class="phase-name">${s}</div>
+          <div class="phase-row"><span>Format</span><span class="val">${i<4?'A/R':'Neutre'}</span></div>
+          <div class="phase-row"><span>Away goals</span><span class="val">Non</span></div>
+        </div>`).join('')}
+      </div>
+    </div>
+  </div>`;
+  el.appendChild(extra);
+}
+
+// ─── RENDER: EURO ──────────────────────────────────────────
+function renderEuro() {
+  const canon = getCanon();
+  if (!canon) return;
+  const euro = canon.euro;
+  const el = document.getElementById('euro-full');
+  el.innerHTML = `
+  <div class="cle-card">
+    <div class="cle-header">
+      <span style="font-size:24px">🌍</span>
+      <span class="cle-title">${euro.name}</span>
+      <span class="pill pill-blue" style="margin-left:auto">Tous les ${euro.frequency_seasons} saisons</span>
+    </div>
+    <div class="cle-body">
+      <div class="cle-phases">
+        <div class="cle-phase">
+          <div class="phase-name">Format</div>
+          <div class="phase-row"><span>Nations</span><span class="val">${euro.teams}</span></div>
+          <div class="phase-row"><span>Groupes</span><span class="val">${euro.groups} × ${euro.teams_per_group}</span></div>
+          <div class="phase-row"><span>Fréquence</span><span class="val">S/${euro.frequency_seasons}</span></div>
+          <div class="phase-row"><span>Effectif</span><span class="val">${euro.squad_size} joueurs</span></div>
+        </div>
+        <div class="cle-phase">
+          <div class="phase-name">Qualification</div>
+          <div class="phase-row"><span>Top 2/groupe</span><span class="val">12</span></div>
+          <div class="phase-row"><span>Meilleurs 3e</span><span class="val">${euro.best_thirds}</span></div>
+          <div class="phase-row"><span>Total KO</span><span class="val">16</span></div>
+        </div>
+        <div class="cle-phase">
+          <div class="phase-name">Knockout</div>
+          <div class="phase-row"><span>Format</span><span class="val">Match sec</span></div>
+          <div class="phase-row"><span>Finale</span><span class="val">Neutre</span></div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ─── BOOT ──────────────────────────────────────────────────
+function boot() {
+  const loaderText = document.getElementById('loader-text');
+
+  setTimeout(() => { loaderText.textContent = 'CHARGEMENT DES CLUBS...'; }, 400);
+  setTimeout(() => { loaderText.textContent = 'INITIALISATION DES SQUADS...'; }, 800);
+
+  setTimeout(() => {
+    const canon = getCanon();
+
+    if (!canon) {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('error-screen').classList.add('visible');
+      return;
+    }
+
+    loadState();
+
+    document.getElementById('season-badge').textContent = `SAISON ${STATE.season}`;
+    document.getElementById('loader').style.display = 'none';
+    document.getElementById('app').style.display = 'flex';
+
+    navigate(STATE.currentView || 'hub', STATE.currentLeague);
+
+  }, 1400);
+}
+
+window.addEventListener('DOMContentLoaded', boot);
+</script>
+</body>
+</html>
