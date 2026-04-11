@@ -91,9 +91,9 @@ const CANON = {
       "league": "PRO_LIGA",
       "nation": "ishgar",
       "tier": "top",
-      "stadium": "Eidler Stadium",
-      "capacity": 69900,
-      "city": "Eidler",
+      "stadium": "Eidler Park",
+      "capacity": 69950,
+      "city": "Olfra",
       "rivalries": []
     },
     "PORT_YONEUVE": {
@@ -187,15 +187,15 @@ const CANON = {
       "city": "Manhattan",
       "rivalries": []
     },
-    "FC_MAGNOLIA": {
-      "id": "FC_MAGNOLIA",
-      "name": "FC Magnolia",
+    "FC_MAGNORIA": {
+      "id": "FC_MAGNORIA",
+      "name": "FC Magnoria",
       "league": "PRO_LIGA",
       "nation": "ishgar",
       "tier": "moyen",
-      "stadium": "Magnolia Park",
-      "capacity": 42000,
-      "city": "Magnolia",
+      "stadium": "Magnoria Park",
+      "capacity": 44000,
+      "city": "Magnoria",
       "rivalries": ["FAIRY_TAIL_FC"
 ]
     },
@@ -272,7 +272,7 @@ const CANON = {
       "league": "LA_LIGA",
       "nation": "javanie",
       "tier": "top",
-      "stadium": "Elland Road",
+      "stadium": "Eiland Road",
       "capacity": 86500,
       "city": "Earth",
       "rivalries": [
@@ -705,7 +705,7 @@ const CANON = {
       "league": "JUBA_LIGA",
       "nation": "savanna",
       "tier": "top",
-      "stadium": "Einthract Park",
+      "stadium": "Einthract",
       "capacity": 75000,
       "city": "City",
       "rivalries": ["FC_ZANZIBAR",
@@ -855,7 +855,7 @@ const CANON = {
       "nation": "savanna",
       "tier": "faible",
       "stadium": "Nome Ground",
-      "capacity": 22000,
+      "capacity": 32000,
       "city": "Nome",
       "rivalries": []
     },
@@ -877,7 +877,7 @@ const CANON = {
       "nation": "savanna",
       "tier": "faible",
       "stadium": "Aneho Arena",
-      "capacity": 25000,
+      "capacity": 35000,
       "city": "Aneho",
       "rivalries": []
     },
@@ -1030,7 +1030,7 @@ const CANON = {
       "nation": "bermudes",
       "tier": "moyen",
       "stadium": "Stade Louis II",
-      "capacity": 18523,
+      "capacity": 28523,
       "city": "Monaco",
       "rivalries": []
     },
@@ -51944,7 +51944,7 @@ const CANON = {
       "club": "ETOILE_ROUGE_BLASE"
     },
     "P02472": {
-      "name": "Dieter Fischer",
+      "name": "Dieter",
       "nationality": "paysTropMignon",
       "age": 18,
       "position": "LB",
@@ -52184,10 +52184,10 @@ const CANON = {
       "club": "ETOILE_ROUGE_BLASE"
     },
     "P02484": {
-      "name": "Felix Koch",
-      "nationality": "ishgar",
+      "name": "Sebastian Nackamura",
+      "nationality": "paystropmignon",
       "age": 30,
-      "position": "ST",
+      "position": "RW, LW",
       "stats": {
         "rapidite": 83,
         "acceleration": 96,
@@ -52290,7 +52290,7 @@ const CANON = {
       "club": "SUPA_STRIKA"
     },
     "P02489": {
-      "name": "Sefa Frimpong",
+      "name": "Sefa Frim",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -52956,7 +52956,7 @@ const CANON = {
       "club": "NACKAMA_FC"
     },
     "P02522": {
-      "name": "Ruslan Pavlov",
+      "name": "Ruslan Pierces",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
