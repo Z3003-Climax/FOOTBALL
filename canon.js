@@ -105,8 +105,9 @@ const CANON = {
       "stadium": "Tropicana",
       "capacity": 72000,
       "city": "Yoneuve",
-      "rivalries": ["FC_PORTO"
-]
+      "rivalries": [
+        "FC_PORTO"
+      ]
     },
     "BRISBANE_ROAR": {
       "id": "BRISBANE_ROAR",
@@ -117,8 +118,9 @@ const CANON = {
       "stadium": "Suncorp Stadium",
       "capacity": 52500,
       "city": "Brisbane",
-      "rivalries": ["FC_SYDNEY"
-]
+      "rivalries": [
+        "FC_SYDNEY"
+      ]
     },
     "BLACKS_CLOVER": {
       "id": "BLACKS_CLOVER",
@@ -162,8 +164,9 @@ const CANON = {
       "stadium": "Moore Park",
       "capacity": 49000,
       "city": "Sydney",
-      "rivalries": ["BRISBANE_ROAR_FC"
-]
+      "rivalries": [
+        "BRISBANE_ROAR_FC"
+      ]
     },
     "YAN_TREIZ": {
       "id": "YAN_TREIZ",
@@ -196,8 +199,9 @@ const CANON = {
       "stadium": "Magnoria Park",
       "capacity": 44000,
       "city": "Magnoria",
-      "rivalries": ["FAIRY_TAIL_FC"
-]
+      "rivalries": [
+        "FAIRY_TAIL_FC"
+      ]
     },
     "MELBOURNE_DEMONS": {
       "id": "MELBOURNE_DEMONS",
@@ -252,8 +256,9 @@ const CANON = {
       "stadium": "Estadio de Dragao",
       "capacity": 55000,
       "city": "Yoneuve",
-      "rivalries": ["PORT_DE_YONEUVE"
-]
+      "rivalries": [
+        "PORT_DE_YONEUVE"
+      ]
     },
     "PEAKY_BLINDERS": {
       "id": "PEAKY_BLINDERS",
@@ -301,8 +306,9 @@ const CANON = {
       "stadium": "Sainsy Metropolitan",
       "capacity": 73300,
       "city": "Poneyville",
-      "rivalries": ["AS_PONEYS"
-]
+      "rivalries": [
+        "AS_PONEYS"
+      ]
     },
     "FC_DIMSDALLE": {
       "id": "FC_DIMSDALLE",
@@ -337,8 +343,9 @@ const CANON = {
       "stadium": "Stalion Arena",
       "capacity": 63200,
       "city": "Poneyville",
-      "rivalries": ["GEARS_PONEYS"
-]
+      "rivalries": [
+        "GEARS_PONEYS"
+      ]
     },
     "JORICKJONSON_FC": {
       "id": "JORICKJONSON_FC",
@@ -421,8 +428,9 @@ const CANON = {
       "stadium": "LogsPark",
       "capacity": 40000,
       "city": "Earth",
-      "rivalries": ["JUVENTUS_EARTH"
-]
+      "rivalries": [
+        "JUVENTUS_EARTH"
+      ]
     },
     "IRISH_FC": {
       "id": "IRISH_FC",
@@ -501,7 +509,9 @@ const CANON = {
       "stadium": "Wert Island",
       "capacity": 70000,
       "city": "Vapir",
-      "rivalries": ["VAPIR"]
+      "rivalries": [
+        "VAPIR"
+      ]
     },
     "FENERBACHE_CLOBSDEL": {
       "id": "FENERBACHE_CLOBSDEL",
@@ -536,8 +546,9 @@ const CANON = {
       "stadium": "Skulivar",
       "capacity": 69200,
       "city": "Vapir",
-      "rivalries": ["SSC_NESERT_WERT"
-]
+      "rivalries": [
+        "SSC_NESERT_WERT"
+      ]
     },
     "LAS_VEGAS_MYSTICS": {
       "id": "LAS_VEGAS_MYSTICS",
@@ -694,8 +705,7 @@ const CANON = {
       "stadium": "Krasnodar Stadium",
       "capacity": 35000,
       "city": "Krasnodar",
-
-"rivalries": [
+      "rivalries": [
         "FC_KRASNODAR"
       ]
     },
@@ -708,9 +718,10 @@ const CANON = {
       "stadium": "Einthract",
       "capacity": 75000,
       "city": "City",
-      "rivalries": ["FC_ZANZIBAR",
-"MAMELODI_SUNDOWNS"
-]
+      "rivalries": [
+        "FC_ZANZIBAR",
+        "MAMELODI_SUNDOWNS"
+      ]
     },
     "FC_ZANZIBAR": {
       "id": "FC_ZANZIBAR",
@@ -721,7 +732,9 @@ const CANON = {
       "stadium": "Amani",
       "capacity": 70400,
       "city": "Zanzibar",
-      "rivalries": ["FENRIR"]
+      "rivalries": [
+        "FENRIR"
+      ]
     },
     "FC_DAR_ES_SALAM": {
       "id": "FC_DAR_ES_SALAM",
@@ -913,7 +926,8 @@ const CANON = {
       "capacity": 80000,
       "city": "Beru",
       "rivalries": [
-        "FC_HYDRA", "RC_MARI_TUGA"
+        "FC_HYDRA",
+        "RC_MARI_TUGA"
       ]
     },
     "FC_HYDRA": {
@@ -938,7 +952,8 @@ const CANON = {
       "stadium": "Fenari Stadium",
       "capacity": 70000,
       "city": "Mari Tuga",
-      "rivalries": [ "BERU_FC",
+      "rivalries": [
+        "BERU_FC",
         "PXG_FC"
       ]
     },
@@ -1122,12 +1137,12 @@ const CANON = {
       "stadium": "San Siero",
       "capacity": 75000,
       "city": "Hole Geulch",
-      "rivalries": ["HOLE_GEULCH_MI_ROSA"
-]
+      "rivalries": [
+        "HOLE_GEULCH_MI_ROSA"
+      ]
     },
     "HOLE_GEULCH_MI_ROSA": {
       "id": "HOLE_GEULCH_MI_ROSA",
-
       "name": "Hole Geulch Mi Rosa",
       "league": "LIGA_NOS",
       "nation": "desertiqua",
@@ -1135,7 +1150,9 @@ const CANON = {
       "stadium": "Stanford Bridge",
       "capacity": 75000,
       "city": "Hole Geulch",
-      "rivalries": ["AJAX_FAR_WEST"]
+      "rivalries": [
+        "AJAX_FAR_WEST"
+      ]
     },
     "BRESIL_FC": {
       "id": "BRESIL_FC",
@@ -1146,8 +1163,9 @@ const CANON = {
       "stadium": "Maracana",
       "capacity": 70200,
       "city": "Sao Paulo",
-      "rivalries": ["PALMENNE_TIRI"
-]
+      "rivalries": [
+        "PALMENNE_TIRI"
+      ]
     },
     "PALMENNE_TIRI": {
       "id": "PALMENNE_TIRI",
@@ -1158,8 +1176,9 @@ const CANON = {
       "stadium": "The Palma",
       "capacity": 71000,
       "city": "Rio de Janeiro",
-      "rivalries": [ "BRESIL_FC"
-]
+      "rivalries": [
+        "BRESIL_FC"
+      ]
     },
     "SUNNA_FC": {
       "id": "SUNNA_FC",
@@ -1214,8 +1233,9 @@ const CANON = {
       "stadium": "The Palma",
       "capacity": 71000,
       "city": "Rio de Janeiro",
-      "rivalries": ["PALMENNE_TIRI"
-]
+      "rivalries": [
+        "PALMENNE_TIRI"
+      ]
     },
     "RIVER_PLATE": {
       "id": "RIVER_PLATE",
@@ -1597,7 +1617,7 @@ const CANON = {
       "id": "P00005"
     },
     "P00006": {
-      "name": "Joseph Stalin",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 26,
       "position": "CDM",
@@ -1959,7 +1979,7 @@ const CANON = {
       "club": "BAYERN_ILUMYSS"
     },
     "P00022": {
-      "name": "Ebo Veil",
+      "name": "Thabo Zulu",
       "nationality": "savanna",
       "age": 23,
       "position": "CDM",
@@ -2382,7 +2402,6 @@ const CANON = {
       "id": "P00040",
       "club": "FAIRY_TAIL"
     },
-    
     "P00042": {
       "name": "Jamal Wilson",
       "nationality": "wakanda",
@@ -2484,7 +2503,7 @@ const CANON = {
       "club": "FAIRY_TAIL"
     },
     "P00047": {
-      "name": "Chris Prince",
+      "name": "Sizwe Mabaso",
       "nationality": "savanna",
       "age": 23,
       "position": "ST",
@@ -2650,7 +2669,7 @@ const CANON = {
       "club": "OLFRA_KE_CONGERE"
     },
     "P00054": {
-      "name": "Abena Louis",
+      "name": "Dumisani Mahlangu",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -2712,7 +2731,7 @@ const CANON = {
       "club": "OLFRA_KE_CONGERE"
     },
     "P00057": {
-      "name": "Tobi Menn",
+      "name": "Sbusiso Hlongwane",
       "nationality": "savanna",
       "age": 24,
       "position": "LB",
@@ -2833,7 +2852,7 @@ const CANON = {
     },
     "P00063": {
       "name": "Hans Tadali",
-      "nationality": "Romania",
+      "nationality": "brislovia",
       "age": 29,
       "position": "CM",
       "stats": {
@@ -3115,7 +3134,7 @@ const CANON = {
     },
     "P00076": {
       "name": "Edon Roth",
-      "nationality": "Romania",
+      "nationality": "brislovia",
       "age": 21,
       "position": "CB",
       "stats": {
@@ -3174,7 +3193,7 @@ const CANON = {
       "club": "PORT_YONEUVE"
     },
     "P00079": {
-      "name": "Ato Marsoni",
+      "name": "Sifiso Mbatha",
       "nationality": "savanna",
       "age": 24,
       "position": "CB",
@@ -3414,7 +3433,7 @@ const CANON = {
       "club": "PORT_YONEUVE"
     },
     "P00091": {
-      "name": "Nana Silas",
+      "name": "Ayanda Mncwango",
       "nationality": "savanna",
       "age": 19,
       "position": "RW",
@@ -3476,7 +3495,7 @@ const CANON = {
       "club": "BRISBANE_ROAR"
     },
     "P00094": {
-      "name": "Maxim Sokolov",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 18,
       "position": "GK",
@@ -3600,7 +3619,7 @@ const CANON = {
       "club": "BRISBANE_ROAR"
     },
     "P00100": {
-      "name": "Boris Lebedev",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 30,
       "position": "LB",
@@ -3720,7 +3739,7 @@ const CANON = {
       "club": "BRISBANE_ROAR"
     },
     "P00106": {
-      "name": "Tunde Lossif",
+      "name": "Sandile Msweli",
       "nationality": "savanna",
       "age": 20,
       "position": "CM",
@@ -4158,7 +4177,7 @@ const CANON = {
     },
     "P00126": {
       "name": "Finral Roulacase",
-      "nationality": "pays trop mignon",
+      "nationality": "paysTropMignon",
       "age": 22,
       "position": "RB",
       "positions": [
@@ -4249,7 +4268,7 @@ const CANON = {
       "club": "BLACKS_CLOVER"
     },
     "P00130": {
-      "name": "Igor Chesnokov",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 23,
       "position": "CB",
@@ -4309,7 +4328,7 @@ const CANON = {
       "club": "BLACKS_CLOVER"
     },
     "P00133": {
-      "name": "Chidi Coulibaly",
+      "name": "Mandla Ngema",
       "nationality": "savanna",
       "age": 22,
       "position": "RB",
@@ -4715,7 +4734,7 @@ const CANON = {
       "club": "INTER_MELE_MELE"
     },
     "P00153": {
-      "name": "Sefa Diallo",
+      "name": "Mlungisi Ngubane",
       "nationality": "savanna",
       "age": 26,
       "position": "CM",
@@ -5181,7 +5200,7 @@ const CANON = {
       "club": "MAGICS_CROCUS"
     },
     "P00176": {
-      "name": "Yaw Traoré",
+      "name": "Tshepo Sithole",
       "nationality": "savanna",
       "age": 19,
       "position": "CM",
@@ -5221,7 +5240,7 @@ const CANON = {
       "club": "MAGICS_CROCUS"
     },
     "P00178": {
-      "name": "Nana Asamoah",
+      "name": "Lerato Mthethwa",
       "nationality": "savanna",
       "age": 21,
       "position": "CAM",
@@ -5487,7 +5506,7 @@ const CANON = {
       "club": "FC_SYDNEY"
     },
     "P00191": {
-      "name": "Ekow Frimpong",
+      "name": "Phumelele Mokoena",
       "nationality": "savanna",
       "age": 20,
       "position": "CB",
@@ -5849,7 +5868,7 @@ const CANON = {
       "club": "YAN_TREIZ"
     },
     "P00209": {
-      "name": "Andrei Petrov",
+      "name": "Viktor Santoro",
       "nationality": "brislovia",
       "age": 30,
       "position": "GK",
@@ -6013,7 +6032,7 @@ const CANON = {
       "club": "YAN_TREIZ"
     },
     "P00217": {
-      "name": "Andrei Chesnokov",
+      "name": "Anton Galli",
       "nationality": "brislovia",
       "age": 23,
       "position": "RB",
@@ -6053,7 +6072,7 @@ const CANON = {
       "club": "YAN_TREIZ"
     },
     "P00219": {
-      "name": "Dmitri Novikov",
+      "name": "Mikhail Amato",
       "nationality": "brislovia",
       "age": 33,
       "position": "CDM",
@@ -6499,7 +6518,7 @@ const CANON = {
       "club": "HSV_MANHATTAN"
     },
     "P00241": {
-      "name": "Kwame Traoré",
+      "name": "Mthokozisi Sibiya",
       "nationality": "savanna",
       "age": 20,
       "position": "RB",
@@ -6659,7 +6678,7 @@ const CANON = {
       "club": "HSV_MANHATTAN"
     },
     "P00249": {
-      "name": "Andrei Popov",
+      "name": "Kirill Vitale",
       "nationality": "brislovia",
       "age": 31,
       "position": "LW",
@@ -6679,7 +6698,7 @@ const CANON = {
       "club": "HSV_MANHATTAN"
     },
     "P00250": {
-      "name": "Ebo Bah",
+      "name": "Cyril Hadebe",
       "nationality": "savanna",
       "age": 22,
       "position": "LW",
@@ -7311,7 +7330,7 @@ const CANON = {
       "club": "MELBOURNE_DEMONS"
     },
     "P00281": {
-      "name": "Timur Pavlov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 28,
       "position": "CB",
@@ -7331,7 +7350,7 @@ const CANON = {
       "club": "MELBOURNE_DEMONS"
     },
     "P00282": {
-      "name": "Sefa Fall",
+      "name": "Leko Ngwenya",
       "nationality": "savanna",
       "age": 17,
       "position": "CB",
@@ -7351,7 +7370,7 @@ const CANON = {
       "club": "MELBOURNE_DEMONS"
     },
     "P00283": {
-      "name": "Anton Rodionov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 28,
       "position": "CB",
@@ -7411,7 +7430,7 @@ const CANON = {
       "club": "MELBOURNE_DEMONS"
     },
     "P00286": {
-      "name": "Yaw Asante",
+      "name": "Wonder Mthiyane",
       "nationality": "savanna",
       "age": 19,
       "position": "RB",
@@ -7671,7 +7690,7 @@ const CANON = {
       "club": "MELBOURNE_DEMONS"
     },
     "P00299": {
-      "name": "Kafui Owusu",
+      "name": "Thamsanqa Mbhele",
       "nationality": "savanna",
       "age": 23,
       "position": "ST",
@@ -7797,7 +7816,7 @@ const CANON = {
       "club": "DEADPOOL_FC"
     },
     "P00305": {
-      "name": "Vasily Morozov",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 18,
       "position": "CB",
@@ -7877,7 +7896,7 @@ const CANON = {
       "club": "DEADPOOL_FC"
     },
     "P00309": {
-      "name": "Tobi Koné",
+      "name": "Mthulisi Nkosi",
       "nationality": "savanna",
       "age": 29,
       "position": "RB",
@@ -8201,7 +8220,7 @@ const CANON = {
       "club": "FLUCELE"
     },
     "P00325": {
-      "name": "Nana Gueye",
+      "name": "Nhlanhlayethu Bhengu",
       "nationality": "savanna",
       "age": 27,
       "position": "GK",
@@ -8243,7 +8262,7 @@ const CANON = {
       "club": "FLUCELE"
     },
     "P00327": {
-      "name": "Sergei Grishin",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 32,
       "position": "CB",
@@ -8909,7 +8928,7 @@ const CANON = {
       "club": "FC_SINNOH"
     },
     "P00360": {
-      "name": "Vasily Kozlov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 34,
       "position": "CM",
@@ -9475,7 +9494,7 @@ const CANON = {
       "club": "FC_PORTO_ISH"
     },
     "P00388": {
-      "name": "Ivan Grishin",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 35,
       "position": "LW",
@@ -9515,7 +9534,7 @@ const CANON = {
       "club": "FC_PORTO_ISH"
     },
     "P00390": {
-      "name": "Ebo Traoré",
+      "name": "Sibonelo Mkhize",
       "nationality": "savanna",
       "age": 25,
       "position": "RW",
@@ -9841,7 +9860,7 @@ const CANON = {
       "club": "PEAKY_BLINDERS"
     },
     "P00406": {
-      "name": "Seun Camara",
+      "name": "Sifiso Hlatshwayo",
       "nationality": "savanna",
       "age": 32,
       "position": "CM",
@@ -10225,7 +10244,7 @@ const CANON = {
       "id": "P00422"
     },
     "P00423": {
-      "name": "Oliver Aiku",
+      "name": "Konstantin Amato",
       "nationality": "brislovia",
       "age": 22,
       "position": "CB",
@@ -10380,7 +10399,7 @@ const CANON = {
       "club": "JUVENTUS_EARTH"
     },
     "P00430": {
-      "name": "Ivan Sokolov",
+      "name": "Alexei Vitale",
       "nationality": "brislovia",
       "age": 30,
       "position": "RB",
@@ -10400,7 +10419,7 @@ const CANON = {
       "club": "JUVENTUS_EARTH"
     },
     "P00431": {
-      "name": "Artyom Popov",
+      "name": "Ivan Rossi",
       "nationality": "brislovia",
       "age": 19,
       "position": "RB",
@@ -10420,7 +10439,7 @@ const CANON = {
       "club": "JUVENTUS_EARTH"
     },
     "P00432": {
-      "name": "Emeka Gueye",
+      "name": "Mxolisi Naidoo",
       "nationality": "savanna",
       "age": 26,
       "position": "CDM",
@@ -10480,7 +10499,7 @@ const CANON = {
       "club": "JUVENTUS_EARTH"
     },
     "P00435": {
-      "name": "Nikolai Orlov",
+      "name": "Sergei Colombo",
       "nationality": "brislovia",
       "age": 33,
       "position": "LW",
@@ -10612,7 +10631,7 @@ const CANON = {
       "id": "P00440"
     },
     "P00441": {
-      "name": "Vassily",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 24,
       "position": "CM",
@@ -10801,7 +10820,7 @@ const CANON = {
       "club": "BOURRUSIA_BOUVILLE"
     },
     "P00450": {
-      "name": "Dmitri Rodionov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 32,
       "position": "LB",
@@ -11043,7 +11062,7 @@ const CANON = {
       "club": "GEARS_PONEYS"
     },
     "P00462": {
-      "name": "Nana Traoré",
+      "name": "Mgcini Mkwanazi",
       "nationality": "savanna",
       "age": 25,
       "position": "GK",
@@ -11065,7 +11084,7 @@ const CANON = {
       "club": "GEARS_PONEYS"
     },
     "P00463": {
-      "name": "Pyotr Pavlov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -11267,7 +11286,7 @@ const CANON = {
       "club": "GEARS_PONEYS"
     },
     "P00473": {
-      "name": "Seun Fall",
+      "name": "Bongani Maphumulo",
       "nationality": "savanna",
       "age": 30,
       "position": "CDM",
@@ -11509,7 +11528,7 @@ const CANON = {
       "club": "FC_DIMSDALLE"
     },
     "P00485": {
-      "name": "Igor Rodionov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -11553,7 +11572,7 @@ const CANON = {
       "club": "FC_DIMSDALLE"
     },
     "P00487": {
-      "name": "Nana Mensah",
+      "name": "Nkosi Mhlongo",
       "nationality": "savanna",
       "age": 20,
       "position": "CB",
@@ -11953,7 +11972,7 @@ const CANON = {
       "club": "FC_DIMSDALLE"
     },
     "P00507": {
-      "name": "Oleg Novikov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 19,
       "position": "GK",
@@ -12339,7 +12358,7 @@ const CANON = {
       "club": "OLYMPIQUE_USLER"
     },
     "P00526": {
-      "name": "Kafui Fall",
+      "name": "Siyanda Xulu",
       "nationality": "savanna",
       "age": 21,
       "position": "LW",
@@ -12359,7 +12378,7 @@ const CANON = {
       "club": "OLYMPIQUE_USLER"
     },
     "P00527": {
-      "name": "Oleg Sokolov",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 22,
       "position": "RW",
@@ -12419,7 +12438,7 @@ const CANON = {
       "club": "OLYMPIQUE_USLER"
     },
     "P00530": {
-      "name": "Maxim Morozov",
+      "name": "Ilya Rossi",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -12463,7 +12482,7 @@ const CANON = {
       "club": "AS_PONEYS"
     },
     "P00532": {
-      "name": "Alexei Petrov",
+      "name": "Yuri Colombo",
       "nationality": "brislovia",
       "age": 30,
       "position": "GK",
@@ -12485,7 +12504,7 @@ const CANON = {
       "club": "AS_PONEYS"
     },
     "P00533": {
-      "name": "Nana Diop",
+      "name": "Mduduzi Mthembu",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -12505,7 +12524,7 @@ const CANON = {
       "club": "AS_PONEYS"
     },
     "P00534": {
-      "name": "Timur Novikov",
+      "name": "Gennady Gallo",
       "nationality": "brislovia",
       "age": 35,
       "position": "CB",
@@ -12565,7 +12584,7 @@ const CANON = {
       "club": "AS_PONEYS"
     },
     "P00537": {
-      "name": "Andrei Sokolov",
+      "name": "Vladislav Rizzo",
       "nationality": "brislovia",
       "age": 33,
       "position": "LB",
@@ -12885,7 +12904,7 @@ const CANON = {
       "club": "AS_PONEYS"
     },
     "P00553": {
-      "name": "Pyotr Kozlov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -13331,7 +13350,7 @@ const CANON = {
       "club": "JORICKJONSON_FC"
     },
     "P00575": {
-      "name": "Artyom Morozov",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 24,
       "position": "ST",
@@ -13477,7 +13496,7 @@ const CANON = {
       "club": "BENFICA_LISBURN"
     },
     "P00582": {
-      "name": "Chidi Ndiaye",
+      "name": "Nhlanhla Ntuli",
       "nationality": "savanna",
       "age": 29,
       "position": "CB",
@@ -13657,7 +13676,7 @@ const CANON = {
       "club": "BENFICA_LISBURN"
     },
     "P00591": {
-      "name": "Kwafo Frimpong",
+      "name": "Thulani Motsepe",
       "nationality": "savanna",
       "age": 31,
       "position": "CM",
@@ -13817,7 +13836,7 @@ const CANON = {
       "club": "BENFICA_LISBURN"
     },
     "P00599": {
-      "name": "Seun Mensah",
+      "name": "Simphiwe Vilakazi",
       "nationality": "savanna",
       "age": 32,
       "position": "GK",
@@ -14003,7 +14022,7 @@ const CANON = {
       "club": "JACKSON_CITY"
     },
     "P00608": {
-      "name": "Alexei Grishin",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 21,
       "position": "RB",
@@ -14023,7 +14042,7 @@ const CANON = {
       "club": "JACKSON_CITY"
     },
     "P00609": {
-      "name": "Ato Mensah",
+      "name": "Khulekani Khumalo",
       "nationality": "savanna",
       "age": 31,
       "position": "RB",
@@ -14103,7 +14122,7 @@ const CANON = {
       "club": "JACKSON_CITY"
     },
     "P00613": {
-      "name": "Vasily Belov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 18,
       "position": "CM",
@@ -14449,7 +14468,7 @@ const CANON = {
       "club": "VICTIMZ"
     },
     "P00630": {
-      "name": "Kafui Frimpong",
+      "name": "Mpho Dladla",
       "nationality": "savanna",
       "age": 18,
       "position": "LB",
@@ -14729,7 +14748,7 @@ const CANON = {
       "club": "VICTIMZ"
     },
     "P00644": {
-      "name": "Ato Diop",
+      "name": "Tebogo Zondo",
       "nationality": "savanna",
       "age": 33,
       "position": "ST",
@@ -14875,7 +14894,7 @@ const CANON = {
       "club": "APPLE_LOUSAS"
     },
     "P00651": {
-      "name": "Maxim Rodionov",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -14975,7 +14994,7 @@ const CANON = {
       "club": "APPLE_LOUSAS"
     },
     "P00656": {
-      "name": "Ekow Diop",
+      "name": "Given Nzuza",
       "nationality": "savanna",
       "age": 19,
       "position": "CDM",
@@ -15381,7 +15400,7 @@ const CANON = {
       "club": "BOHEMIANS"
     },
     "P00676": {
-      "name": "Vasily Volkov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 30,
       "position": "LB",
@@ -15441,7 +15460,7 @@ const CANON = {
       "club": "BOHEMIANS"
     },
     "P00679": {
-      "name": "Viktor Morozov",
+      "name": "Viktor Gallo",
       "nationality": "brislovia",
       "age": 28,
       "position": "CDM",
@@ -15461,7 +15480,7 @@ const CANON = {
       "club": "BOHEMIANS"
     },
     "P00680": {
-      "name": "Nikolai Nikitin",
+      "name": "Anton Rizzo",
       "nationality": "brislovia",
       "age": 22,
       "position": "CDM",
@@ -15561,7 +15580,7 @@ const CANON = {
       "club": "BOHEMIANS"
     },
     "P00685": {
-      "name": "Andrei Pavlov",
+      "name": "Mikhail Santoro",
       "nationality": "brislovia",
       "age": 24,
       "position": "CAM",
@@ -15703,7 +15722,7 @@ const CANON = {
       "club": "TERRITORIAS"
     },
     "P00692": {
-      "name": "Mensah Keita",
+      "name": "Nkululeko Dlamini",
       "nationality": "savanna",
       "age": 31,
       "position": "GK",
@@ -15867,7 +15886,7 @@ const CANON = {
       "club": "TERRITORIAS"
     },
     "P00700": {
-      "name": "Tunde Camara",
+      "name": "Liyema Cele",
       "nationality": "savanna",
       "age": 21,
       "position": "RB",
@@ -16107,7 +16126,7 @@ const CANON = {
       "club": "TERRITORIAS"
     },
     "P00712": {
-      "name": "Boris Sokolov",
+      "name": "Kirill Galli",
       "nationality": "brislovia",
       "age": 24,
       "position": "RW",
@@ -16147,7 +16166,7 @@ const CANON = {
       "club": "TERRITORIAS"
     },
     "P00714": {
-      "name": "Tunde Bah",
+      "name": "Lebo Buthelezi",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -16213,7 +16232,7 @@ const CANON = {
       "club": "IRISH_FC"
     },
     "P00717": {
-      "name": "Mensah Touré",
+      "name": "Percy Masondo",
       "nationality": "savanna",
       "age": 19,
       "position": "CB",
@@ -16273,7 +16292,7 @@ const CANON = {
       "club": "IRISH_FC"
     },
     "P00720": {
-      "name": "Timur Morozov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 21,
       "position": "CB",
@@ -16393,7 +16412,7 @@ const CANON = {
       "club": "IRISH_FC"
     },
     "P00726": {
-      "name": "Artyom Kozlov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 18,
       "position": "CDM",
@@ -16699,7 +16718,7 @@ const CANON = {
       "club": "SHAMROCK_ROVERS"
     },
     "P00741": {
-      "name": "Artyom Petrov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -16759,7 +16778,7 @@ const CANON = {
       "club": "SHAMROCK_ROVERS"
     },
     "P00744": {
-      "name": "Gbenga Diallo",
+      "name": "Lucky Ngcobo",
       "nationality": "savanna",
       "age": 24,
       "position": "LB",
@@ -16779,7 +16798,7 @@ const CANON = {
       "club": "SHAMROCK_ROVERS"
     },
     "P00745": {
-      "name": "Pyotr Morozov",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 17,
       "position": "LB",
@@ -17225,7 +17244,7 @@ const CANON = {
       "club": "MIDDLESBOURG"
     },
     "P00767": {
-      "name": "Kojo Asamoah",
+      "name": "Ntuthuko Mnguni",
       "nationality": "savanna",
       "age": 21,
       "position": "LB",
@@ -17305,7 +17324,7 @@ const CANON = {
       "club": "MIDDLESBOURG"
     },
     "P00771": {
-      "name": "Ebo Touré",
+      "name": "Mondli Gumede",
       "nationality": "savanna",
       "age": 20,
       "position": "CDM",
@@ -17545,7 +17564,7 @@ const CANON = {
       "club": "MIDDLESBOURG"
     },
     "P00783": {
-      "name": "Anton Fedorov",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -18055,7 +18074,7 @@ const CANON = {
       "club": "SHELBOURNE"
     },
     "P00808": {
-      "name": "Ekow Ndiaye",
+      "name": "Buhle Mdlalose",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -18437,7 +18456,7 @@ const CANON = {
       "club": "SHELBOURNE"
     },
     "P00827": {
-      "name": "Igor Orlov",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 19,
       "position": "RW",
@@ -18477,7 +18496,7 @@ const CANON = {
       "club": "SHELBOURNE"
     },
     "P00829": {
-      "name": "Yiochi Isagy",
+      "name": "Konstantin Santoro",
       "nationality": "brislovia",
       "age": 24,
       "position": "ST",
@@ -18527,7 +18546,7 @@ const CANON = {
       "id": "P00830"
     },
     "P00831": {
-      "name": "Rainbow Dash",
+      "name": "Alexei Galli",
       "nationality": "brislovia",
       "age": 34,
       "position": "LW",
@@ -18552,7 +18571,7 @@ const CANON = {
       "id": "P00831"
     },
     "P00832": {
-      "name": "Nicolai Starstine",
+      "name": "Ivan Amato",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -18599,7 +18618,7 @@ const CANON = {
       "id": "P00833"
     },
     "P00834": {
-      "name": "Garame",
+      "name": "Sergei Vitale",
       "nationality": "brislovia",
       "age": 27,
       "position": "CDM",
@@ -18714,7 +18733,7 @@ const CANON = {
       "id": "P00838"
     },
     "P00839": {
-      "name": "Manglev",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 27,
       "position": "GK",
@@ -18761,7 +18780,7 @@ const CANON = {
       "club": "WONDER_BALLT"
     },
     "P00841": {
-      "name": "Boris Zaitsev",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 28,
       "position": "GK",
@@ -18803,7 +18822,7 @@ const CANON = {
       "club": "WONDER_BALLT"
     },
     "P00843": {
-      "name": "Ruslan Popov",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 20,
       "position": "CB",
@@ -18863,7 +18882,7 @@ const CANON = {
       "club": "WONDER_BALLT"
     },
     "P00846": {
-      "name": "Boris Chesnokov",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 30,
       "position": "CDM",
@@ -18883,7 +18902,7 @@ const CANON = {
       "club": "WONDER_BALLT"
     },
     "P00847": {
-      "name": "Viktor Chesnokov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 20,
       "position": "CDM",
@@ -19005,7 +19024,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00853": {
-      "name": "Vasily Sobolev",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -19049,7 +19068,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00855": {
-      "name": "Sefa Touré",
+      "name": "Luvo Ndaba",
       "nationality": "savanna",
       "age": 31,
       "position": "CB",
@@ -19089,7 +19108,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00857": {
-      "name": "Roman Grishin",
+      "name": "Ilya Amato",
       "nationality": "brislovia",
       "age": 35,
       "position": "CB",
@@ -19109,7 +19128,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00858": {
-      "name": "Alexei Fedorov",
+      "name": "Yuri Vitale",
       "nationality": "brislovia",
       "age": 24,
       "position": "CB",
@@ -19129,7 +19148,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00859": {
-      "name": "Vasily Rodionov",
+      "name": "Gennady Rossi",
       "nationality": "brislovia",
       "age": 29,
       "position": "LB",
@@ -19149,7 +19168,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00860": {
-      "name": "Ivan Morozov",
+      "name": "Vladislav Colombo",
       "nationality": "brislovia",
       "age": 31,
       "position": "LB",
@@ -19229,7 +19248,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00864": {
-      "name": "Kwame Fall",
+      "name": "Nkosinathi Ndlovu",
       "nationality": "savanna",
       "age": 35,
       "position": "CDM",
@@ -19249,7 +19268,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00865": {
-      "name": "Igor Lebedev",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -19269,7 +19288,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00866": {
-      "name": "Ruslan Kozlov",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 33,
       "position": "CM",
@@ -19389,7 +19408,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00872": {
-      "name": "Nikolai Morozov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 24,
       "position": "RW",
@@ -19429,7 +19448,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00874": {
-      "name": "Nikolai Grishin",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 25,
       "position": "ST",
@@ -19449,7 +19468,7 @@ const CANON = {
       "club": "SSC_NESERT_WERT"
     },
     "P00875": {
-      "name": "Roman Pavlov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -19471,7 +19490,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00876": {
-      "name": "Timur Popov",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 32,
       "position": "GK",
@@ -19515,7 +19534,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00878": {
-      "name": "Ruslan Orlov",
+      "name": "Viktor Rossi",
       "nationality": "brislovia",
       "age": 19,
       "position": "CB",
@@ -19535,7 +19554,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00879": {
-      "name": "Nana Coulibaly",
+      "name": "Thokozani Khoza",
       "nationality": "savanna",
       "age": 17,
       "position": "CB",
@@ -19575,7 +19594,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00881": {
-      "name": "Viktor Popov",
+      "name": "Anton Colombo",
       "nationality": "brislovia",
       "age": 33,
       "position": "CB",
@@ -19615,7 +19634,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00883": {
-      "name": "Ruslan Zaitsev",
+      "name": "Mikhail Gallo",
       "nationality": "brislovia",
       "age": 18,
       "position": "LB",
@@ -19635,7 +19654,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00884": {
-      "name": "Viktor Rodionov",
+      "name": "Kirill Rizzo",
       "nationality": "brislovia",
       "age": 32,
       "position": "RB",
@@ -19815,7 +19834,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00893": {
-      "name": "Pavel Morozov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 21,
       "position": "LW",
@@ -19875,7 +19894,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00896": {
-      "name": "Timur Kozlov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 27,
       "position": "RW",
@@ -19895,7 +19914,7 @@ const CANON = {
       "club": "FENERBACHE_CLOBSDEL"
     },
     "P00897": {
-      "name": "Nikolai Novikov",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 30,
       "position": "ST",
@@ -19937,7 +19956,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00899": {
-      "name": "Pyotr Lebedev",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 35,
       "position": "GK",
@@ -19959,7 +19978,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00900": {
-      "name": "Pavel Nikitin",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 29,
       "position": "GK",
@@ -19981,7 +20000,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00901": {
-      "name": "Vasily Chesnokov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 24,
       "position": "CB",
@@ -20001,7 +20020,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00902": {
-      "name": "Alexei Nikitin",
+      "name": "Konstantin Gallo",
       "nationality": "brislovia",
       "age": 22,
       "position": "CB",
@@ -20021,7 +20040,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00903": {
-      "name": "Vasily Novikov",
+      "name": "Alexei Rizzo",
       "nationality": "brislovia",
       "age": 29,
       "position": "CB",
@@ -20061,7 +20080,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00905": {
-      "name": "Yuri Fedorov",
+      "name": "Ivan Santoro",
       "nationality": "brislovia",
       "age": 26,
       "position": "LB",
@@ -20081,7 +20100,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00906": {
-      "name": "Oleg Popov",
+      "name": "Sergei Galli",
       "nationality": "brislovia",
       "age": 23,
       "position": "LB",
@@ -20161,7 +20180,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00910": {
-      "name": "Pyotr Belov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 33,
       "position": "CDM",
@@ -20181,7 +20200,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00911": {
-      "name": "Nikolai Volkov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 30,
       "position": "CM",
@@ -20301,7 +20320,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00917": {
-      "name": "Nana Camara",
+      "name": "Sipho Zwane",
       "nationality": "savanna",
       "age": 28,
       "position": "LW",
@@ -20381,7 +20400,7 @@ const CANON = {
       "club": "SHADOW_BALLT"
     },
     "P00921": {
-      "name": "Oleg Morozov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 20,
       "position": "GK",
@@ -20425,7 +20444,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00923": {
-      "name": "Viktor Sobolev",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 34,
       "position": "GK",
@@ -20447,7 +20466,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00924": {
-      "name": "Artyom Sobolev",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 33,
       "position": "CB",
@@ -20467,7 +20486,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00925": {
-      "name": "Viktor Sokolov",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 30,
       "position": "CB",
@@ -20527,7 +20546,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00928": {
-      "name": "Pavel Kozlov",
+      "name": "Ilya Santoro",
       "nationality": "brislovia",
       "age": 24,
       "position": "LB",
@@ -20567,7 +20586,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00930": {
-      "name": "Boris Petrov",
+      "name": "Yuri Galli",
       "nationality": "brislovia",
       "age": 27,
       "position": "RB",
@@ -20587,7 +20606,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00931": {
-      "name": "Igor Popov",
+      "name": "Gennady Amato",
       "nationality": "brislovia",
       "age": 18,
       "position": "RB",
@@ -20607,7 +20626,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00932": {
-      "name": "Maxim Fedorov",
+      "name": "Vladislav Vitale",
       "nationality": "brislovia",
       "age": 27,
       "position": "CDM",
@@ -20627,7 +20646,7 @@ const CANON = {
       "club": "VAPIR_FC"
     },
     "P00933": {
-      "name": "Sergei Chesnokov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 19,
       "position": "CDM",
@@ -20869,7 +20888,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00945": {
-      "name": "Yuri Volkov",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -20891,7 +20910,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00946": {
-      "name": "Artyom Grishin",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -20933,7 +20952,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00948": {
-      "name": "Vasily Grishin",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 18,
       "position": "CB",
@@ -20993,7 +21012,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00951": {
-      "name": "Roman Petrov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 32,
       "position": "LB",
@@ -21013,7 +21032,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00952": {
-      "name": "Vasily Fedorov",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 18,
       "position": "LB",
@@ -21033,7 +21052,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00953": {
-      "name": "Alexei Chesnokov",
+      "name": "Viktor Amato",
       "nationality": "brislovia",
       "age": 21,
       "position": "RB",
@@ -21053,7 +21072,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00954": {
-      "name": "Yuri Chesnokov",
+      "name": "Anton Vitale",
       "nationality": "brislovia",
       "age": 23,
       "position": "RB",
@@ -21093,7 +21112,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00956": {
-      "name": "Boris Popov",
+      "name": "Mikhail Rossi",
       "nationality": "brislovia",
       "age": 27,
       "position": "CDM",
@@ -21173,7 +21192,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00960": {
-      "name": "Sergei Sobolev",
+      "name": "Kirill Colombo",
       "nationality": "brislovia",
       "age": 32,
       "position": "CAM",
@@ -21253,7 +21272,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00964": {
-      "name": "Kwafo Diallo",
+      "name": "Lungelo Zungu",
       "nationality": "savanna",
       "age": 29,
       "position": "RW",
@@ -21313,7 +21332,7 @@ const CANON = {
       "club": "LAS_VEGAS_MYSTICS"
     },
     "P00967": {
-      "name": "Viktor Nikitin",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 20,
       "position": "GK",
@@ -21335,7 +21354,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00968": {
-      "name": "Boris Nikitin",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 34,
       "position": "GK",
@@ -21379,7 +21398,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00970": {
-      "name": "Artyom Pavlov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 27,
       "position": "CB",
@@ -21439,7 +21458,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00973": {
-      "name": "Pavel Rodionov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 30,
       "position": "CB",
@@ -21459,7 +21478,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00974": {
-      "name": "Nikolai Popov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 31,
       "position": "LB",
@@ -21479,7 +21498,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00975": {
-      "name": "Andrei Zaitsev",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 34,
       "position": "LB",
@@ -21499,7 +21518,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00976": {
-      "name": "Viktor Orlov",
+      "name": "Konstantin Rossi",
       "nationality": "brislovia",
       "age": 28,
       "position": "RB",
@@ -21539,7 +21558,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00978": {
-      "name": "Viktor Belov",
+      "name": "Alexei Colombo",
       "nationality": "brislovia",
       "age": 33,
       "position": "CDM",
@@ -21599,7 +21618,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00981": {
-      "name": "Viktor Novikov",
+      "name": "Ivan Gallo",
       "nationality": "brislovia",
       "age": 25,
       "position": "CM",
@@ -21679,7 +21698,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00985": {
-      "name": "Seun Asante",
+      "name": "Vusi Maluleke",
       "nationality": "savanna",
       "age": 19,
       "position": "LW",
@@ -21699,7 +21718,7 @@ const CANON = {
       "club": "MYSTICONS"
     },
     "P00986": {
-      "name": "Kojo Bah",
+      "name": "Lwandile Mngomezulu",
       "nationality": "savanna",
       "age": 18,
       "position": "LW",
@@ -21801,7 +21820,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P00991": {
-      "name": "Pavel Popov",
+      "name": "Sergei Rizzo",
       "nationality": "brislovia",
       "age": 28,
       "position": "GK",
@@ -21823,7 +21842,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P00992": {
-      "name": "Anton Pavlov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 24,
       "position": "GK",
@@ -21845,7 +21864,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P00993": {
-      "name": "Sergei Belov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 26,
       "position": "CB",
@@ -21945,7 +21964,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P00998": {
-      "name": "Maxim Lebedev",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 25,
       "position": "LB",
@@ -22025,7 +22044,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01002": {
-      "name": "Viktor Volkov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 33,
       "position": "CDM",
@@ -22045,7 +22064,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01003": {
-      "name": "Yuri Belov",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 20,
       "position": "CM",
@@ -22065,7 +22084,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01004": {
-      "name": "Dmitri Petrov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 23,
       "position": "CM",
@@ -22085,7 +22104,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01005": {
-      "name": "Yuri Morozov",
+      "name": "Ilya Gallo",
       "nationality": "brislovia",
       "age": 34,
       "position": "CM",
@@ -22125,7 +22144,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01007": {
-      "name": "Alexei Lebedev",
+      "name": "Yuri Rizzo",
       "nationality": "brislovia",
       "age": 23,
       "position": "CAM",
@@ -22185,7 +22204,7 @@ const CANON = {
       "club": "GALATASARAY"
     },
     "P01010": {
-      "name": "Chidi Asamoah",
+      "name": "Luyanda Ntanzi",
       "nationality": "savanna",
       "age": 20,
       "position": "RW",
@@ -22331,7 +22350,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01017": {
-      "name": "Roman Chesnokov",
+      "name": "Gennady Santoro",
       "nationality": "brislovia",
       "age": 35,
       "position": "CB",
@@ -22411,7 +22430,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01021": {
-      "name": "Sefa Asante",
+      "name": "Musa Mthombeni",
       "nationality": "savanna",
       "age": 35,
       "position": "LB",
@@ -22431,7 +22450,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01022": {
-      "name": "Oleg Belov",
+      "name": "Vladislav Galli",
       "nationality": "brislovia",
       "age": 28,
       "position": "RB",
@@ -22491,7 +22510,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01025": {
-      "name": "Viktor Fedorov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 31,
       "position": "CDM",
@@ -22511,7 +22530,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01026": {
-      "name": "Sergei Nikitin",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 30,
       "position": "CM",
@@ -22531,7 +22550,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01027": {
-      "name": "Kafui Koné",
+      "name": "Ntokozo Mtheku",
       "nationality": "savanna",
       "age": 26,
       "position": "CM",
@@ -22551,7 +22570,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01028": {
-      "name": "Ato Fall",
+      "name": "Themba Shabalala",
       "nationality": "savanna",
       "age": 27,
       "position": "CM",
@@ -22571,7 +22590,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01029": {
-      "name": "Pavel Pavlov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 22,
       "position": "CAM",
@@ -22591,7 +22610,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01030": {
-      "name": "Roman Kozlov",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 32,
       "position": "CAM",
@@ -22611,7 +22630,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01031": {
-      "name": "Vasily Lebedev",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 21,
       "position": "LW",
@@ -22631,7 +22650,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01032": {
-      "name": "Andrei Kozlov",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 22,
       "position": "LW",
@@ -22691,7 +22710,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01035": {
-      "name": "Yuri Nikitin",
+      "name": "Viktor Santoro",
       "nationality": "brislovia",
       "age": 25,
       "position": "ST",
@@ -22711,7 +22730,7 @@ const CANON = {
       "club": "ZENITH_ST_PETERSBOURG"
     },
     "P01036": {
-      "name": "Roman Novikov",
+      "name": "Anton Galli",
       "nationality": "brislovia",
       "age": 22,
       "position": "GK",
@@ -22733,7 +22752,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01037": {
-      "name": "Oleg Nikitin",
+      "name": "Mikhail Amato",
       "nationality": "brislovia",
       "age": 19,
       "position": "GK",
@@ -22755,7 +22774,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01038": {
-      "name": "Ebo Mensah",
+      "name": "Sello Myeni",
       "nationality": "savanna",
       "age": 18,
       "position": "GK",
@@ -22777,7 +22796,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01039": {
-      "name": "Oleg Grishin",
+      "name": "Kirill Vitale",
       "nationality": "brislovia",
       "age": 21,
       "position": "CB",
@@ -22817,7 +22836,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01041": {
-      "name": "Dmitri Kozlov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 23,
       "position": "CB",
@@ -22837,7 +22856,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01042": {
-      "name": "Sergei Zaitsev",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 22,
       "position": "CB",
@@ -22917,7 +22936,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01046": {
-      "name": "Ivan Volkov",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 34,
       "position": "RB",
@@ -23077,7 +23096,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01054": {
-      "name": "Igor Volkov",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 33,
       "position": "LW",
@@ -23117,7 +23136,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01056": {
-      "name": "Maxim Chesnokov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 22,
       "position": "RW",
@@ -23157,7 +23176,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01058": {
-      "name": "Andrei Sobolev",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 25,
       "position": "ST",
@@ -23177,7 +23196,7 @@ const CANON = {
       "club": "GRYMM_UNITED"
     },
     "P01059": {
-      "name": "Pavel Petrov",
+      "name": "Konstantin Amato",
       "nationality": "brislovia",
       "age": 19,
       "position": "GK",
@@ -23199,7 +23218,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01060": {
-      "name": "Maxim Zaitsev",
+      "name": "Alexei Vitale",
       "nationality": "brislovia",
       "age": 23,
       "position": "GK",
@@ -23221,7 +23240,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01061": {
-      "name": "Roman Volkov",
+      "name": "Ivan Rossi",
       "nationality": "brislovia",
       "age": 22,
       "position": "GK",
@@ -23303,7 +23322,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01065": {
-      "name": "Artyom Belov",
+      "name": "Sergei Colombo",
       "nationality": "brislovia",
       "age": 22,
       "position": "CB",
@@ -23343,7 +23362,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01067": {
-      "name": "Ivan Lebedev",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 17,
       "position": "LB",
@@ -23383,7 +23402,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01069": {
-      "name": "Maxim Nikitin",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 27,
       "position": "RB",
@@ -23403,7 +23422,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01070": {
-      "name": "Timur Lebedev",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 19,
       "position": "CDM",
@@ -23463,7 +23482,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01073": {
-      "name": "Anton Kozlov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 35,
       "position": "CM",
@@ -23523,7 +23542,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01076": {
-      "name": "Sergei Novikov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 34,
       "position": "CAM",
@@ -23583,7 +23602,7 @@ const CANON = {
       "club": "PEGASOPOLISE"
     },
     "P01079": {
-      "name": "Gbenga Camara",
+      "name": "Kabelo Molefe",
       "nationality": "savanna",
       "age": 26,
       "position": "RW",
@@ -23665,7 +23684,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01083": {
-      "name": "Nikolai Sokolov",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 35,
       "position": "GK",
@@ -23687,7 +23706,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01084": {
-      "name": "Vasily Popov",
+      "name": "Ilya Rossi",
       "nationality": "brislovia",
       "age": 27,
       "position": "GK",
@@ -23729,7 +23748,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01086": {
-      "name": "Igor Fedorov",
+      "name": "Yuri Colombo",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -23789,7 +23808,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01089": {
-      "name": "Abena Mensah",
+      "name": "Wiseman Radebe",
       "nationality": "savanna",
       "age": 21,
       "position": "LB",
@@ -23889,7 +23908,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01094": {
-      "name": "Anton Popov",
+      "name": "Gennady Gallo",
       "nationality": "brislovia",
       "age": 29,
       "position": "CDM",
@@ -23909,7 +23928,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01095": {
-      "name": "Ivan Zaitsev",
+      "name": "Vladislav Rizzo",
       "nationality": "brislovia",
       "age": 24,
       "position": "CM",
@@ -23989,7 +24008,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01099": {
-      "name": "Boris Belov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 32,
       "position": "CAM",
@@ -24049,7 +24068,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01102": {
-      "name": "Viktor Pavlov",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 23,
       "position": "RW",
@@ -24069,7 +24088,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01103": {
-      "name": "Timur Zaitsev",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 22,
       "position": "RW",
@@ -24089,7 +24108,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01104": {
-      "name": "Anton Volkov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 27,
       "position": "ST",
@@ -24109,7 +24128,7 @@ const CANON = {
       "club": "LIGHT_NING"
     },
     "P01105": {
-      "name": "Artyom Novikov",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -24175,7 +24194,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01108": {
-      "name": "Sergei Petrov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 24,
       "position": "CB",
@@ -24215,7 +24234,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01110": {
-      "name": "Maxim Grishin",
+      "name": "Viktor Gallo",
       "nationality": "brislovia",
       "age": 26,
       "position": "CB",
@@ -24235,7 +24254,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01111": {
-      "name": "Maxim Sobolev",
+      "name": "Anton Rizzo",
       "nationality": "brislovia",
       "age": 24,
       "position": "CB",
@@ -24255,7 +24274,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01112": {
-      "name": "Andrei Novikov",
+      "name": "Mikhail Santoro",
       "nationality": "brislovia",
       "age": 32,
       "position": "LB",
@@ -24275,7 +24294,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01113": {
-      "name": "Seun Diop",
+      "name": "Mzwandile Dube",
       "nationality": "savanna",
       "age": 35,
       "position": "LB",
@@ -24355,7 +24374,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01117": {
-      "name": "Nikolai Fedorov",
+      "name": "Kirill Galli",
       "nationality": "brislovia",
       "age": 26,
       "position": "CDM",
@@ -24375,7 +24394,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01118": {
-      "name": "Timur Sokolov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 28,
       "position": "CM",
@@ -24395,7 +24414,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01119": {
-      "name": "Nikolai Belov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 20,
       "position": "CM",
@@ -24435,7 +24454,7 @@ const CANON = {
       "club": "SHAKTAR_DONETSK"
     },
     "P01121": {
-      "name": "Yuri Novikov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 23,
       "position": "CAM",
@@ -24597,7 +24616,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01129": {
-      "name": "Dmitri Sokolov",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 23,
       "position": "GK",
@@ -24619,7 +24638,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01130": {
-      "name": "Oleg Lebedev",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 30,
       "position": "GK",
@@ -24661,7 +24680,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01132": {
-      "name": "Pavel Orlov",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 28,
       "position": "CB",
@@ -24721,7 +24740,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01135": {
-      "name": "Boris Morozov",
+      "name": "Konstantin Santoro",
       "nationality": "brislovia",
       "age": 28,
       "position": "LB",
@@ -24781,7 +24800,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01138": {
-      "name": "Anton Nikitin",
+      "name": "Alexei Galli",
       "nationality": "brislovia",
       "age": 19,
       "position": "RB",
@@ -24901,7 +24920,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01144": {
-      "name": "Nikolai Chesnokov",
+      "name": "Ivan Amato",
       "nationality": "brislovia",
       "age": 29,
       "position": "CAM",
@@ -24921,7 +24940,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01145": {
-      "name": "Ivan Sobolev",
+      "name": "Sergei Vitale",
       "nationality": "brislovia",
       "age": 24,
       "position": "CAM",
@@ -24961,7 +24980,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01147": {
-      "name": "Yaw Mensah",
+      "name": "Phiwayinkosi Gcabashe",
       "nationality": "savanna",
       "age": 27,
       "position": "LW",
@@ -25001,7 +25020,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01149": {
-      "name": "Roman Orlov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 33,
       "position": "RW",
@@ -25021,7 +25040,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01150": {
-      "name": "Maxim Volkov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 24,
       "position": "ST",
@@ -25041,7 +25060,7 @@ const CANON = {
       "club": "FC_KRASNODAR"
     },
     "P01151": {
-      "name": "Maxim Pavlov",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -25063,7 +25082,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01152": {
-      "name": "Pyotr Novikov",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 22,
       "position": "GK",
@@ -25085,7 +25104,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01153": {
-      "name": "Anton Novikov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 20,
       "position": "GK",
@@ -25167,7 +25186,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01157": {
-      "name": "Ivan Pavlov",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 28,
       "position": "CB",
@@ -25187,7 +25206,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01158": {
-      "name": "Oleg Chesnokov",
+      "name": "Ilya Amato",
       "nationality": "brislovia",
       "age": 22,
       "position": "LB",
@@ -25267,7 +25286,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01162": {
-      "name": "Timur Petrov",
+      "name": "Yuri Vitale",
       "nationality": "brislovia",
       "age": 21,
       "position": "CDM",
@@ -25327,7 +25346,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01165": {
-      "name": "Ivan Orlov",
+      "name": "Gennady Rossi",
       "nationality": "brislovia",
       "age": 20,
       "position": "CM",
@@ -25367,7 +25386,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01167": {
-      "name": "Pyotr Rodionov",
+      "name": "Vladislav Colombo",
       "nationality": "brislovia",
       "age": 19,
       "position": "CAM",
@@ -25427,7 +25446,7 @@ const CANON = {
       "club": "LOKOMOTIV_MOSCOW"
     },
     "P01170": {
-      "name": "Boris Kozlov",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 21,
       "position": "LW",
@@ -25529,7 +25548,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01175": {
-      "name": "Nikolai Petrov",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -25551,7 +25570,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01176": {
-      "name": "Vasily Pavlov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -25573,7 +25592,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01177": {
-      "name": "Viktor Petrov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 26,
       "position": "CB",
@@ -25593,7 +25612,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01178": {
-      "name": "Ivan Belov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 17,
       "position": "CB",
@@ -25633,7 +25652,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01180": {
-      "name": "Nikolai Sobolev",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 32,
       "position": "CB",
@@ -25653,7 +25672,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01181": {
-      "name": "Oleg Volkov",
+      "name": "Viktor Rossi",
       "nationality": "brislovia",
       "age": 22,
       "position": "LB",
@@ -25693,7 +25712,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01183": {
-      "name": "Dmitri Popov",
+      "name": "Anton Colombo",
       "nationality": "brislovia",
       "age": 28,
       "position": "RB",
@@ -25773,7 +25792,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01187": {
-      "name": "Boris Fedorov",
+      "name": "Mikhail Gallo",
       "nationality": "brislovia",
       "age": 26,
       "position": "CM",
@@ -25853,7 +25872,7 @@ const CANON = {
       "club": "DYNAMO_KIEV"
     },
     "P01191": {
-      "name": "Igor Morozov",
+      "name": "Kirill Rizzo",
       "nationality": "brislovia",
       "age": 24,
       "position": "CAM",
@@ -25995,7 +26014,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01198": {
-      "name": "Alexei Sokolov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 19,
       "position": "GK",
@@ -26017,7 +26036,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01199": {
-      "name": "Ivan Nikitin",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 32,
       "position": "GK",
@@ -26079,7 +26098,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01202": {
-      "name": "Pyotr Sobolev",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 31,
       "position": "CB",
@@ -26099,7 +26118,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01203": {
-      "name": "Roman Fedorov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 29,
       "position": "CB",
@@ -26119,7 +26138,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01204": {
-      "name": "Oleg Fedorov",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 27,
       "position": "LB",
@@ -26179,7 +26198,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01207": {
-      "name": "Igor Kozlov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 31,
       "position": "RB",
@@ -26219,7 +26238,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01209": {
-      "name": "Boris Grishin",
+      "name": "Konstantin Gallo",
       "nationality": "brislovia",
       "age": 23,
       "position": "CDM",
@@ -26259,7 +26278,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01211": {
-      "name": "Fiifi Osei",
+      "name": "Dean Cebekhulu",
       "nationality": "savanna",
       "age": 22,
       "position": "CM",
@@ -26319,7 +26338,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01214": {
-      "name": "Pyotr Petrov",
+      "name": "Alexei Rizzo",
       "nationality": "brislovia",
       "age": 29,
       "position": "CAM",
@@ -26419,7 +26438,7 @@ const CANON = {
       "club": "CSKA_MOSCOW"
     },
     "P01219": {
-      "name": "Alexei Kozlov",
+      "name": "Ivan Santoro",
       "nationality": "brislovia",
       "age": 19,
       "position": "ST",
@@ -26461,7 +26480,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01221": {
-      "name": "Anton Sobolev",
+      "name": "Sergei Galli",
       "nationality": "brislovia",
       "age": 21,
       "position": "GK",
@@ -26483,7 +26502,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01222": {
-      "name": "Pyotr Popov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 29,
       "position": "GK",
@@ -26505,7 +26524,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01223": {
-      "name": "Roman Sobolev",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 21,
       "position": "CB",
@@ -26545,7 +26564,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01225": {
-      "name": "Andrei Rodionov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 27,
       "position": "CB",
@@ -26645,7 +26664,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01230": {
-      "name": "Boris Rodionov",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 28,
       "position": "RB",
@@ -26725,7 +26744,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01234": {
-      "name": "Maxim Novikov",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 21,
       "position": "CM",
@@ -26765,7 +26784,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01236": {
-      "name": "Andrei Grishin",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 21,
       "position": "CAM",
@@ -26805,7 +26824,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01238": {
-      "name": "Yuri Orlov",
+      "name": "Ilya Santoro",
       "nationality": "brislovia",
       "age": 25,
       "position": "LW",
@@ -26865,7 +26884,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01241": {
-      "name": "Igor Novikov",
+      "name": "Yuri Galli",
       "nationality": "brislovia",
       "age": 31,
       "position": "RW",
@@ -26905,7 +26924,7 @@ const CANON = {
       "club": "SPARTA_KRASNODAR"
     },
     "P01243": {
-      "name": "Riccochet",
+      "name": "Junior Msweli",
       "nationality": "savanna",
       "age": 33,
       "position": "ST",
@@ -26928,7 +26947,7 @@ const CANON = {
       "id": "P01243"
     },
     "P01244": {
-      "name": "Bachira Megumy",
+      "name": "Gift Zulu",
       "nationality": "savanna",
       "age": 19,
       "position": "RW",
@@ -26952,7 +26971,7 @@ const CANON = {
       "id": "P01244"
     },
     "P01245": {
-      "name": "Orélio Aramio Shakur",
+      "name": "Sbu Mabaso",
       "nationality": "savanna",
       "age": 31,
       "position": "LW",
@@ -27022,7 +27041,7 @@ const CANON = {
       "id": "P01247"
     },
     "P01248": {
-      "name": "Joseph Lavio",
+      "name": "Siyabonga Mahlangu",
       "nationality": "savanna",
       "age": 26,
       "position": "CDM",
@@ -27070,7 +27089,7 @@ const CANON = {
       "id": "P01249"
     },
     "P01250": {
-      "name": "Block",
+      "name": "Gennady Amato",
       "nationality": "brislovia",
       "age": 29,
       "position": "CB",
@@ -27116,7 +27135,7 @@ const CANON = {
       "id": "P01251"
     },
     "P01252": {
-      "name": "Ben Lovro",
+      "name": "Vladislav Vitale",
       "nationality": "brislovia",
       "age": 25,
       "position": "LB",
@@ -27139,7 +27158,7 @@ const CANON = {
       "id": "P01252"
     },
     "P01253": {
-      "name": "Vaught",
+      "name": "Bayanda Hlongwane",
       "nationality": "savanna",
       "age": 27,
       "position": "GK",
@@ -27186,7 +27205,7 @@ const CANON = {
       "club": "FENRIR"
     },
     "P01255": {
-      "name": "Fiifi Keita",
+      "name": "Yanga Mbatha",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -27228,7 +27247,7 @@ const CANON = {
       "club": "FENRIR"
     },
     "P01257": {
-      "name": "Kwame Boateng",
+      "name": "Zakhele Mncwango",
       "nationality": "savanna",
       "age": 25,
       "position": "CB",
@@ -27368,7 +27387,7 @@ const CANON = {
       "club": "FENRIR"
     },
     "P01264": {
-      "name": "Fiifi Koné",
+      "name": "Phila Msweli",
       "nationality": "savanna",
       "age": 28,
       "position": "RW",
@@ -27388,7 +27407,7 @@ const CANON = {
       "club": "FENRIR"
     },
     "P01265": {
-      "name": "Sefa Coulibaly",
+      "name": "Thabo Ngema",
       "nationality": "savanna",
       "age": 31,
       "position": "RW",
@@ -27408,7 +27427,7 @@ const CANON = {
       "club": "FENRIR"
     },
     "P01266": {
-      "name": "Kofi Frimpong",
+      "name": "Sizwe Ngubane",
       "nationality": "savanna",
       "age": 22,
       "position": "GK",
@@ -27494,7 +27513,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01270": {
-      "name": "Seun Coulibaly",
+      "name": "Dumisani Sithole",
       "nationality": "savanna",
       "age": 34,
       "position": "CB",
@@ -27514,7 +27533,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01271": {
-      "name": "Sefa Traoré",
+      "name": "Sbusiso Mthethwa",
       "nationality": "savanna",
       "age": 25,
       "position": "CB",
@@ -27554,7 +27573,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01273": {
-      "name": "Chidi Frimpong",
+      "name": "Sifiso Mokoena",
       "nationality": "savanna",
       "age": 33,
       "position": "LB",
@@ -27594,7 +27613,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01275": {
-      "name": "Ebo Owusu",
+      "name": "Ayanda Sibiya",
       "nationality": "savanna",
       "age": 31,
       "position": "RB",
@@ -27614,7 +27633,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01276": {
-      "name": "Ebo Keita",
+      "name": "Sandile Hadebe",
       "nationality": "savanna",
       "age": 33,
       "position": "RB",
@@ -27734,7 +27753,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01282": {
-      "name": "Kwafo Fall",
+      "name": "Mandla Ngwenya",
       "nationality": "savanna",
       "age": 30,
       "position": "CAM",
@@ -27754,7 +27773,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01283": {
-      "name": "Nana Fall",
+      "name": "Mlungisi Mthiyane",
       "nationality": "savanna",
       "age": 29,
       "position": "CAM",
@@ -27774,7 +27793,7 @@ const CANON = {
       "club": "FC_ZANZIBAR"
     },
     "P01284": {
-      "name": "Tunde Diop",
+      "name": "Tshepo Mbhele",
       "nationality": "savanna",
       "age": 22,
       "position": "LW",
@@ -27918,7 +27937,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01291": {
-      "name": "Seun Keita",
+      "name": "Lerato Nkosi",
       "nationality": "savanna",
       "age": 31,
       "position": "GK",
@@ -27960,7 +27979,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01293": {
-      "name": "Kwame Coulibaly",
+      "name": "Phumelele Bhengu",
       "nationality": "savanna",
       "age": 31,
       "position": "CB",
@@ -27980,7 +27999,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01294": {
-      "name": "Emeka Diop",
+      "name": "Mthokozisi Mkhize",
       "nationality": "savanna",
       "age": 18,
       "position": "CB",
@@ -28020,7 +28039,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01296": {
-      "name": "Fiifi Touré",
+      "name": "Cyril Hlatshwayo",
       "nationality": "savanna",
       "age": 19,
       "position": "LB",
@@ -28080,7 +28099,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01299": {
-      "name": "Tobi Keita",
+      "name": "Leko Naidoo",
       "nationality": "savanna",
       "age": 31,
       "position": "RB",
@@ -28100,7 +28119,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01300": {
-      "name": "Fiifi Gueye",
+      "name": "Wonder Mkwanazi",
       "nationality": "savanna",
       "age": 19,
       "position": "CDM",
@@ -28200,7 +28219,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01305": {
-      "name": "Ekow Asamoah",
+      "name": "Thamsanqa Maphumulo",
       "nationality": "savanna",
       "age": 22,
       "position": "CAM",
@@ -28220,7 +28239,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01306": {
-      "name": "Kojo Koné",
+      "name": "Mthulisi Mhlongo",
       "nationality": "savanna",
       "age": 26,
       "position": "CAM",
@@ -28260,7 +28279,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01308": {
-      "name": "Ato Touré",
+      "name": "Nhlanhlayethu Xulu",
       "nationality": "savanna",
       "age": 34,
       "position": "LW",
@@ -28340,7 +28359,7 @@ const CANON = {
       "club": "FC_DAR_ES_SALAM"
     },
     "P01312": {
-      "name": "Ruslan Chesnokov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -28362,7 +28381,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01313": {
-      "name": "Gbenga Osei",
+      "name": "Sibonelo Mthembu",
       "nationality": "savanna",
       "age": 30,
       "position": "GK",
@@ -28406,7 +28425,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01315": {
-      "name": "Kafui Keita",
+      "name": "Sifiso Ntuli",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -28426,7 +28445,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01316": {
-      "name": "Kojo Touré",
+      "name": "Mxolisi Motsepe",
       "nationality": "savanna",
       "age": 33,
       "position": "CB",
@@ -28446,7 +28465,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01317": {
-      "name": "Tunde Asamoah",
+      "name": "Mgcini Vilakazi",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -28506,7 +28525,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01320": {
-      "name": "Kafui Asante",
+      "name": "Bongani Khumalo",
       "nationality": "savanna",
       "age": 29,
       "position": "LB",
@@ -28526,7 +28545,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01321": {
-      "name": "Tobi Bah",
+      "name": "Nkosi Dladla",
       "nationality": "savanna",
       "age": 32,
       "position": "RB",
@@ -28546,7 +28565,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01322": {
-      "name": "Ebo Coulibaly",
+      "name": "Siyanda Zondo",
       "nationality": "savanna",
       "age": 27,
       "position": "RB",
@@ -28566,7 +28585,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01323": {
-      "name": "Ekow Diallo",
+      "name": "Mduduzi Nzuza",
       "nationality": "savanna",
       "age": 30,
       "position": "CDM",
@@ -28586,7 +28605,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01324": {
-      "name": "Sefa Keita",
+      "name": "Nhlanhla Dlamini",
       "nationality": "savanna",
       "age": 21,
       "position": "CDM",
@@ -28726,7 +28745,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01331": {
-      "name": "Timur Sobolev",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 23,
       "position": "LW",
@@ -28806,7 +28825,7 @@ const CANON = {
       "club": "TOGO_AS_PORT"
     },
     "P01335": {
-      "name": "Abena Boateng",
+      "name": "Thulani Cele",
       "nationality": "savanna",
       "age": 22,
       "position": "GK",
@@ -28850,7 +28869,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01337": {
-      "name": "Kojo Diop",
+      "name": "Simphiwe Buthelezi",
       "nationality": "savanna",
       "age": 26,
       "position": "GK",
@@ -29012,7 +29031,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01345": {
-      "name": "Nana Keita",
+      "name": "Khulekani Masondo",
       "nationality": "savanna",
       "age": 20,
       "position": "RB",
@@ -29032,7 +29051,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01346": {
-      "name": "Abena Asamoah",
+      "name": "Mpho Ngcobo",
       "nationality": "savanna",
       "age": 25,
       "position": "CDM",
@@ -29052,7 +29071,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01347": {
-      "name": "Kwafo Owusu",
+      "name": "Tebogo Mnguni",
       "nationality": "savanna",
       "age": 22,
       "position": "CDM",
@@ -29072,7 +29091,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01348": {
-      "name": "Yaw Frimpong",
+      "name": "Given Gumede",
       "nationality": "savanna",
       "age": 22,
       "position": "CM",
@@ -29092,7 +29111,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01349": {
-      "name": "Abena Gueye",
+      "name": "Nkululeko Mdlalose",
       "nationality": "savanna",
       "age": 28,
       "position": "CM",
@@ -29152,7 +29171,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01352": {
-      "name": "Emeka Koné",
+      "name": "Liyema Ndaba",
       "nationality": "savanna",
       "age": 22,
       "position": "CAM",
@@ -29252,7 +29271,7 @@ const CANON = {
       "club": "BANKS_SUN_GARD"
     },
     "P01357": {
-      "name": "Yaw Bah",
+      "name": "Lebo Ndlovu",
       "nationality": "savanna",
       "age": 26,
       "position": "ST",
@@ -29294,7 +29313,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01359": {
-      "name": "Kwafo Keita",
+      "name": "Percy Khoza",
       "nationality": "savanna",
       "age": 18,
       "position": "GK",
@@ -29316,7 +29335,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01360": {
-      "name": "Mensah Frimpong",
+      "name": "Lucky Zwane",
       "nationality": "savanna",
       "age": 35,
       "position": "GK",
@@ -29358,7 +29377,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01362": {
-      "name": "Nana Ndiaye",
+      "name": "Ntuthuko Zungu",
       "nationality": "savanna",
       "age": 31,
       "position": "CB",
@@ -29398,7 +29417,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01364": {
-      "name": "Nana Koné",
+      "name": "Mondli Maluleke",
       "nationality": "savanna",
       "age": 23,
       "position": "CB",
@@ -29418,7 +29437,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01365": {
-      "name": "Gbenga Keita",
+      "name": "Buhle Mngomezulu",
       "nationality": "savanna",
       "age": 31,
       "position": "LB",
@@ -29438,7 +29457,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01366": {
-      "name": "Yaw Owusu",
+      "name": "Luvo Ntanzi",
       "nationality": "savanna",
       "age": 29,
       "position": "LB",
@@ -29458,7 +29477,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01367": {
-      "name": "Alexei Sobolev",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 30,
       "position": "RB",
@@ -29498,7 +29517,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01369": {
-      "name": "Kofi Gueye",
+      "name": "Nkosinathi Mthombeni",
       "nationality": "savanna",
       "age": 26,
       "position": "CDM",
@@ -29538,7 +29557,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01371": {
-      "name": "Tunde Diallo",
+      "name": "Thokozani Mtheku",
       "nationality": "savanna",
       "age": 33,
       "position": "CM",
@@ -29558,7 +29577,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01372": {
-      "name": "Abena Coulibaly",
+      "name": "Sipho Shabalala",
       "nationality": "savanna",
       "age": 26,
       "position": "CM",
@@ -29618,7 +29637,7 @@ const CANON = {
       "club": "BASHAKSHEIR_BAGUIDA"
     },
     "P01375": {
-      "name": "Ivan Petrov",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 27,
       "position": "CAM",
@@ -29844,7 +29863,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01386": {
-      "name": "Yaw Osei",
+      "name": "Lungelo Myeni",
       "nationality": "savanna",
       "age": 34,
       "position": "CB",
@@ -29884,7 +29903,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01388": {
-      "name": "Gbenga Touré",
+      "name": "Vusi Molefe",
       "nationality": "savanna",
       "age": 30,
       "position": "LB",
@@ -29904,7 +29923,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01389": {
-      "name": "Yaw Coulibaly",
+      "name": "Lwandile Radebe",
       "nationality": "savanna",
       "age": 32,
       "position": "LB",
@@ -29924,7 +29943,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01390": {
-      "name": "Abena Touré",
+      "name": "Luyanda Dube",
       "nationality": "savanna",
       "age": 20,
       "position": "RB",
@@ -29964,7 +29983,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01392": {
-      "name": "Tunde Keita",
+      "name": "Musa Gcabashe",
       "nationality": "savanna",
       "age": 21,
       "position": "CDM",
@@ -30004,7 +30023,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01394": {
-      "name": "Kwafo Gueye",
+      "name": "Ntokozo Cebekhulu",
       "nationality": "savanna",
       "age": 28,
       "position": "CM",
@@ -30024,7 +30043,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01395": {
-      "name": "Kojo Diallo",
+      "name": "Themba Msweli",
       "nationality": "savanna",
       "age": 18,
       "position": "CM",
@@ -30064,7 +30083,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01397": {
-      "name": "Kojo Mensah",
+      "name": "Sello Zulu",
       "nationality": "savanna",
       "age": 29,
       "position": "CAM",
@@ -30104,7 +30123,7 @@ const CANON = {
       "club": "MAMELODI_SUNDOWNS"
     },
     "P01399": {
-      "name": "Seun Asamoah",
+      "name": "Kabelo Mabaso",
       "nationality": "savanna",
       "age": 32,
       "position": "LW",
@@ -30226,7 +30245,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01405": {
-      "name": "Yaw Fall",
+      "name": "Wiseman Mahlangu",
       "nationality": "savanna",
       "age": 22,
       "position": "GK",
@@ -30248,7 +30267,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01406": {
-      "name": "Kwafo Asante",
+      "name": "Mzwandile Hlongwane",
       "nationality": "savanna",
       "age": 32,
       "position": "GK",
@@ -30290,7 +30309,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01408": {
-      "name": "Nikolai Zaitsev",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 29,
       "position": "CB",
@@ -30310,7 +30329,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01409": {
-      "name": "Ebo Ndiaye",
+      "name": "Phiwayinkosi Mbatha",
       "nationality": "savanna",
       "age": 31,
       "position": "CB",
@@ -30350,7 +30369,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01411": {
-      "name": "Kafui Camara",
+      "name": "Dean Mncwango",
       "nationality": "savanna",
       "age": 19,
       "position": "LB",
@@ -30370,7 +30389,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01412": {
-      "name": "Kofi Diallo",
+      "name": "Junior Msweli",
       "nationality": "savanna",
       "age": 29,
       "position": "LB",
@@ -30390,7 +30409,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01413": {
-      "name": "Sefa Gueye",
+      "name": "Gift Ngema",
       "nationality": "savanna",
       "age": 26,
       "position": "RB",
@@ -30410,7 +30429,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01414": {
-      "name": "Tunde Coulibaly",
+      "name": "Sbu Ngubane",
       "nationality": "savanna",
       "age": 32,
       "position": "RB",
@@ -30450,7 +30469,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01416": {
-      "name": "Abena Koné",
+      "name": "Siyabonga Sithole",
       "nationality": "savanna",
       "age": 17,
       "position": "CDM",
@@ -30470,7 +30489,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01417": {
-      "name": "Kojo Frimpong",
+      "name": "Bayanda Mthethwa",
       "nationality": "savanna",
       "age": 29,
       "position": "CM",
@@ -30570,7 +30589,7 @@ const CANON = {
       "club": "ORLANDO_PIRATES"
     },
     "P01422": {
-      "name": "Anton Zaitsev",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 27,
       "position": "LW",
@@ -30714,7 +30733,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01429": {
-      "name": "Fiifi Ndiaye",
+      "name": "Yanga Mokoena",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -30736,7 +30755,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01430": {
-      "name": "Kwame Koné",
+      "name": "Zakhele Sibiya",
       "nationality": "savanna",
       "age": 22,
       "position": "CB",
@@ -30756,7 +30775,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01431": {
-      "name": "Kwafo Diop",
+      "name": "Phila Hadebe",
       "nationality": "savanna",
       "age": 17,
       "position": "CB",
@@ -30816,7 +30835,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01434": {
-      "name": "Ato Bah",
+      "name": "Thabo Ngwenya",
       "nationality": "savanna",
       "age": 30,
       "position": "LB",
@@ -31036,7 +31055,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01445": {
-      "name": "Gbenga Gueye",
+      "name": "Sizwe Mthiyane",
       "nationality": "savanna",
       "age": 24,
       "position": "LW",
@@ -31056,7 +31075,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01446": {
-      "name": "Nana Diallo",
+      "name": "Dumisani Mbhele",
       "nationality": "savanna",
       "age": 19,
       "position": "LW",
@@ -31076,7 +31095,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01447": {
-      "name": "Kwame Asante",
+      "name": "Sbusiso Nkosi",
       "nationality": "savanna",
       "age": 31,
       "position": "RW",
@@ -31096,7 +31115,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01448": {
-      "name": "Kwame Frimpong",
+      "name": "Sifiso Bhengu",
       "nationality": "savanna",
       "age": 20,
       "position": "RW",
@@ -31116,7 +31135,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01449": {
-      "name": "Tobi Frimpong",
+      "name": "Ayanda Mkhize",
       "nationality": "savanna",
       "age": 33,
       "position": "ST",
@@ -31136,7 +31155,7 @@ const CANON = {
       "club": "FC_TOGO"
     },
     "P01450": {
-      "name": "Emeka Coulibaly",
+      "name": "Sandile Hlatshwayo",
       "nationality": "savanna",
       "age": 21,
       "position": "GK",
@@ -31202,7 +31221,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01453": {
-      "name": "Chidi Bah",
+      "name": "Mandla Naidoo",
       "nationality": "savanna",
       "age": 29,
       "position": "CB",
@@ -31222,7 +31241,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01454": {
-      "name": "Seun Koné",
+      "name": "Mlungisi Mkwanazi",
       "nationality": "savanna",
       "age": 29,
       "position": "CB",
@@ -31242,7 +31261,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01455": {
-      "name": "Ruslan Volkov",
+      "name": "Viktor Amato",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -31262,7 +31281,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01456": {
-      "name": "Tobi Coulibaly",
+      "name": "Tshepo Maphumulo",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -31302,7 +31321,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01458": {
-      "name": "Mensah Asamoah",
+      "name": "Lerato Mhlongo",
       "nationality": "savanna",
       "age": 17,
       "position": "LB",
@@ -31342,7 +31361,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01460": {
-      "name": "Yaw Diop",
+      "name": "Phumelele Xulu",
       "nationality": "savanna",
       "age": 19,
       "position": "RB",
@@ -31422,7 +31441,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01464": {
-      "name": "Boris Novikov",
+      "name": "Anton Vitale",
       "nationality": "brislovia",
       "age": 21,
       "position": "CM",
@@ -31462,7 +31481,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01466": {
-      "name": "Kofi Camara",
+      "name": "Mthokozisi Mthembu",
       "nationality": "savanna",
       "age": 32,
       "position": "CAM",
@@ -31502,7 +31521,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01468": {
-      "name": "Ato Asante",
+      "name": "Cyril Ntuli",
       "nationality": "savanna",
       "age": 30,
       "position": "LW",
@@ -31542,7 +31561,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01470": {
-      "name": "Ebo Camara",
+      "name": "Leko Motsepe",
       "nationality": "savanna",
       "age": 21,
       "position": "RW",
@@ -31562,7 +31581,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01471": {
-      "name": "Oleg Rodionov",
+      "name": "Mikhail Rossi",
       "nationality": "brislovia",
       "age": 27,
       "position": "RW",
@@ -31602,7 +31621,7 @@ const CANON = {
       "club": "ZAMALEK_FC"
     },
     "P01473": {
-      "name": "Kojo Coulibaly",
+      "name": "Wonder Vilakazi",
       "nationality": "savanna",
       "age": 24,
       "position": "GK",
@@ -31668,7 +31687,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01476": {
-      "name": "Sefa Osei",
+      "name": "Thamsanqa Khumalo",
       "nationality": "savanna",
       "age": 20,
       "position": "CB",
@@ -31688,7 +31707,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01477": {
-      "name": "Gbenga Koné",
+      "name": "Mthulisi Dladla",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -31728,7 +31747,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01479": {
-      "name": "Tobi Boateng",
+      "name": "Nhlanhlayethu Zondo",
       "nationality": "savanna",
       "age": 33,
       "position": "CB",
@@ -31768,7 +31787,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01481": {
-      "name": "Seun Boateng",
+      "name": "Sibonelo Nzuza",
       "nationality": "savanna",
       "age": 25,
       "position": "LB",
@@ -31788,7 +31807,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01482": {
-      "name": "Roman Belov",
+      "name": "Kirill Colombo",
       "nationality": "brislovia",
       "age": 26,
       "position": "RB",
@@ -31848,7 +31867,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01485": {
-      "name": "Kojo Camara",
+      "name": "Sifiso Dlamini",
       "nationality": "savanna",
       "age": 19,
       "position": "CDM",
@@ -31868,7 +31887,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01486": {
-      "name": "Tunde Osei",
+      "name": "Mxolisi Cele",
       "nationality": "savanna",
       "age": 21,
       "position": "CM",
@@ -31908,7 +31927,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01488": {
-      "name": "Kofi Bah",
+      "name": "Mgcini Buthelezi",
       "nationality": "savanna",
       "age": 25,
       "position": "CM",
@@ -31928,7 +31947,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01489": {
-      "name": "Kojo Boateng",
+      "name": "Bongani Masondo",
       "nationality": "savanna",
       "age": 19,
       "position": "CAM",
@@ -32068,7 +32087,7 @@ const CANON = {
       "club": "FC_DAREL"
     },
     "P01496": {
-      "name": "Mensah Coulibaly",
+      "name": "Nkosi Ngcobo",
       "nationality": "savanna",
       "age": 33,
       "position": "GK",
@@ -32154,7 +32173,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01500": {
-      "name": "Fiifi Boateng",
+      "name": "Siyanda Mnguni",
       "nationality": "savanna",
       "age": 18,
       "position": "CB",
@@ -32194,7 +32213,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01502": {
-      "name": "Pyotr Nikitin",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -32214,7 +32233,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01503": {
-      "name": "Kwafo Coulibaly",
+      "name": "Mduduzi Gumede",
       "nationality": "savanna",
       "age": 33,
       "position": "LB",
@@ -32254,7 +32273,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01505": {
-      "name": "Chidi Traoré",
+      "name": "Nhlanhla Mdlalose",
       "nationality": "savanna",
       "age": 25,
       "position": "RB",
@@ -32274,7 +32293,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01506": {
-      "name": "Fiifi Fall",
+      "name": "Thulani Ndaba",
       "nationality": "savanna",
       "age": 26,
       "position": "RB",
@@ -32294,7 +32313,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01507": {
-      "name": "Chidi Koné",
+      "name": "Simphiwe Ndlovu",
       "nationality": "savanna",
       "age": 20,
       "position": "CDM",
@@ -32394,7 +32413,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01512": {
-      "name": "Tobi Asamoah",
+      "name": "Khulekani Khoza",
       "nationality": "savanna",
       "age": 33,
       "position": "CAM",
@@ -32434,7 +32453,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01514": {
-      "name": "Tobi Asante",
+      "name": "Mpho Zwane",
       "nationality": "savanna",
       "age": 26,
       "position": "LW",
@@ -32474,7 +32493,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01516": {
-      "name": "Vasily Petrov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 26,
       "position": "RW",
@@ -32514,7 +32533,7 @@ const CANON = {
       "club": "ANCHORAGE_FC"
     },
     "P01518": {
-      "name": "Kafui Bah",
+      "name": "Tebogo Zungu",
       "nationality": "savanna",
       "age": 29,
       "position": "ST",
@@ -32578,7 +32597,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01521": {
-      "name": "Sefa Mensah",
+      "name": "Given Maluleke",
       "nationality": "savanna",
       "age": 17,
       "position": "GK",
@@ -32660,7 +32679,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01525": {
-      "name": "Kwame Diallo",
+      "name": "Nkululeko Mngomezulu",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -32720,7 +32739,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01528": {
-      "name": "Abena Owusu",
+      "name": "Liyema Ntanzi",
       "nationality": "savanna",
       "age": 31,
       "position": "RB",
@@ -32780,7 +32799,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01531": {
-      "name": "Gbenga Ndiaye",
+      "name": "Lebo Mthombeni",
       "nationality": "savanna",
       "age": 35,
       "position": "CDM",
@@ -32840,7 +32859,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01534": {
-      "name": "Seun Bah",
+      "name": "Percy Mtheku",
       "nationality": "savanna",
       "age": 24,
       "position": "CM",
@@ -32900,7 +32919,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01537": {
-      "name": "Ekow Keita",
+      "name": "Lucky Shabalala",
       "nationality": "savanna",
       "age": 19,
       "position": "LW",
@@ -32920,7 +32939,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01538": {
-      "name": "Kofi Asante",
+      "name": "Ntuthuko Myeni",
       "nationality": "savanna",
       "age": 27,
       "position": "LW",
@@ -32940,7 +32959,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01539": {
-      "name": "Kafui Traoré",
+      "name": "Mondli Molefe",
       "nationality": "savanna",
       "age": 32,
       "position": "RW",
@@ -32960,7 +32979,7 @@ const CANON = {
       "club": "ALASKA_UNITED"
     },
     "P01540": {
-      "name": "Kofi Mensah",
+      "name": "Buhle Radebe",
       "nationality": "savanna",
       "age": 24,
       "position": "RW",
@@ -33022,7 +33041,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01543": {
-      "name": "Artyom Orlov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 35,
       "position": "GK",
@@ -33044,7 +33063,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01544": {
-      "name": "Kafui Boateng",
+      "name": "Luvo Dube",
       "nationality": "savanna",
       "age": 29,
       "position": "GK",
@@ -33066,7 +33085,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01545": {
-      "name": "Seun Ndiaye",
+      "name": "Nkosinathi Gcabashe",
       "nationality": "savanna",
       "age": 32,
       "position": "CB",
@@ -33086,7 +33105,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01546": {
-      "name": "Ato Ndiaye",
+      "name": "Thokozani Cebekhulu",
       "nationality": "savanna",
       "age": 27,
       "position": "CB",
@@ -33106,7 +33125,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01547": {
-      "name": "Ebo Asamoah",
+      "name": "Sipho Msweli",
       "nationality": "savanna",
       "age": 35,
       "position": "CB",
@@ -33146,7 +33165,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01549": {
-      "name": "Kwame Touré",
+      "name": "Lungelo Zulu",
       "nationality": "savanna",
       "age": 26,
       "position": "LB",
@@ -33166,7 +33185,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01550": {
-      "name": "Kwafo Asamoah",
+      "name": "Vusi Mabaso",
       "nationality": "savanna",
       "age": 18,
       "position": "LB",
@@ -33186,7 +33205,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01551": {
-      "name": "Ebo Asante",
+      "name": "Lwandile Mahlangu",
       "nationality": "savanna",
       "age": 32,
       "position": "RB",
@@ -33266,7 +33285,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01555": {
-      "name": "Ato Keita",
+      "name": "Luyanda Hlongwane",
       "nationality": "savanna",
       "age": 26,
       "position": "CM",
@@ -33286,7 +33305,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01556": {
-      "name": "Emeka Keita",
+      "name": "Musa Mbatha",
       "nationality": "savanna",
       "age": 27,
       "position": "CM",
@@ -33326,7 +33345,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01558": {
-      "name": "Maxim Popov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 20,
       "position": "CAM",
@@ -33406,7 +33425,7 @@ const CANON = {
       "club": "NOME_FC"
     },
     "P01562": {
-      "name": "Ruslan Petrov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 20,
       "position": "RW",
@@ -33510,7 +33529,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01567": {
-      "name": "Sefa Asamoah",
+      "name": "Ntokozo Mncwango",
       "nationality": "savanna",
       "age": 17,
       "position": "GK",
@@ -33532,7 +33551,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01568": {
-      "name": "Ato Osei",
+      "name": "Themba Msweli",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -33572,7 +33591,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01570": {
-      "name": "Mensah Owusu",
+      "name": "Sello Ngema",
       "nationality": "savanna",
       "age": 27,
       "position": "CB",
@@ -33592,7 +33611,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01571": {
-      "name": "Yaw Camara",
+      "name": "Kabelo Ngubane",
       "nationality": "savanna",
       "age": 25,
       "position": "CB",
@@ -33612,7 +33631,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01572": {
-      "name": "Yaw Keita",
+      "name": "Wiseman Sithole",
       "nationality": "savanna",
       "age": 19,
       "position": "LB",
@@ -33692,7 +33711,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01576": {
-      "name": "Ebo Boateng",
+      "name": "Mzwandile Mthethwa",
       "nationality": "savanna",
       "age": 20,
       "position": "CDM",
@@ -33792,7 +33811,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01581": {
-      "name": "Kafui Gueye",
+      "name": "Phiwayinkosi Mokoena",
       "nationality": "savanna",
       "age": 22,
       "position": "CAM",
@@ -33852,7 +33871,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01584": {
-      "name": "Kafui Osei",
+      "name": "Dean Sibiya",
       "nationality": "savanna",
       "age": 29,
       "position": "LW",
@@ -33892,7 +33911,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01586": {
-      "name": "Mensah Boateng",
+      "name": "Junior Hadebe",
       "nationality": "savanna",
       "age": 31,
       "position": "RW",
@@ -33932,7 +33951,7 @@ const CANON = {
       "club": "US_SEWARD"
     },
     "P01588": {
-      "name": "Emeka Mensah",
+      "name": "Gift Ngwenya",
       "nationality": "savanna",
       "age": 33,
       "position": "GK",
@@ -33976,7 +33995,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01590": {
-      "name": "Ato Boateng",
+      "name": "Sbu Mthiyane",
       "nationality": "savanna",
       "age": 20,
       "position": "GK",
@@ -33998,7 +34017,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01591": {
-      "name": "Nana Owusu",
+      "name": "Siyabonga Mbhele",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -34018,7 +34037,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01592": {
-      "name": "Nana Boateng",
+      "name": "Bayanda Nkosi",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -34078,7 +34097,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01595": {
-      "name": "Kojo Owusu",
+      "name": "Yanga Bhengu",
       "nationality": "savanna",
       "age": 23,
       "position": "LB",
@@ -34098,7 +34117,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01596": {
-      "name": "Gbenga Fall",
+      "name": "Zakhele Mkhize",
       "nationality": "savanna",
       "age": 26,
       "position": "LB",
@@ -34138,7 +34157,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01598": {
-      "name": "Kwafo Bah",
+      "name": "Phila Hlatshwayo",
       "nationality": "savanna",
       "age": 20,
       "position": "RB",
@@ -34178,7 +34197,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01600": {
-      "name": "Ato Owusu",
+      "name": "Thabo Naidoo",
       "nationality": "savanna",
       "age": 22,
       "position": "CDM",
@@ -34238,7 +34257,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01603": {
-      "name": "Emeka Ndiaye",
+      "name": "Sizwe Mkwanazi",
       "nationality": "savanna",
       "age": 30,
       "position": "CM",
@@ -34278,7 +34297,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01605": {
-      "name": "Pavel Lebedev",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 17,
       "position": "CAM",
@@ -34398,7 +34417,7 @@ const CANON = {
       "club": "ANEHO_FC"
     },
     "P01611": {
-      "name": "Ato Diallo",
+      "name": "Dumisani Maphumulo",
       "nationality": "savanna",
       "age": 32,
       "position": "GK",
@@ -34464,7 +34483,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01614": {
-      "name": "Mensah Osei",
+      "name": "Sbusiso Mhlongo",
       "nationality": "savanna",
       "age": 28,
       "position": "CB",
@@ -34504,7 +34523,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01616": {
-      "name": "Gbenga Diop",
+      "name": "Sifiso Xulu",
       "nationality": "savanna",
       "age": 35,
       "position": "CB",
@@ -34564,7 +34583,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01619": {
-      "name": "Kwafo Touré",
+      "name": "Ayanda Mthembu",
       "nationality": "savanna",
       "age": 25,
       "position": "LB",
@@ -34624,7 +34643,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01622": {
-      "name": "Mensah Ndiaye",
+      "name": "Sandile Ntuli",
       "nationality": "savanna",
       "age": 19,
       "position": "CDM",
@@ -34684,7 +34703,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01625": {
-      "name": "Kafui Asamoah",
+      "name": "Mandla Motsepe",
       "nationality": "savanna",
       "age": 32,
       "position": "CM",
@@ -34704,7 +34723,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01626": {
-      "name": "Anton Chesnokov",
+      "name": "Konstantin Rossi",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -34764,7 +34783,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01629": {
-      "name": "Yaw Asamoah",
+      "name": "Mlungisi Vilakazi",
       "nationality": "savanna",
       "age": 25,
       "position": "LW",
@@ -34784,7 +34803,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01630": {
-      "name": "Pyotr Zaitsev",
+      "name": "Alexei Colombo",
       "nationality": "brislovia",
       "age": 32,
       "position": "LW",
@@ -34804,7 +34823,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01631": {
-      "name": "Chidi Touré",
+      "name": "Tshepo Khumalo",
       "nationality": "savanna",
       "age": 25,
       "position": "RW",
@@ -34844,7 +34863,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01633": {
-      "name": "Kafui Mensah",
+      "name": "Lerato Dladla",
       "nationality": "savanna",
       "age": 25,
       "position": "ST",
@@ -34864,7 +34883,7 @@ const CANON = {
       "club": "FC_JANEAU"
     },
     "P01634": {
-      "name": "Ekow Gueye",
+      "name": "Phumelele Zondo",
       "nationality": "savanna",
       "age": 19,
       "position": "GK",
@@ -34886,7 +34905,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01635": {
-      "name": "Ebo Diop",
+      "name": "Mthokozisi Nzuza",
       "nationality": "savanna",
       "age": 29,
       "position": "GK",
@@ -34930,7 +34949,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01637": {
-      "name": "Kwafo Koné",
+      "name": "Cyril Dlamini",
       "nationality": "savanna",
       "age": 23,
       "position": "CB",
@@ -34970,7 +34989,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01639": {
-      "name": "Kofi Osei",
+      "name": "Leko Cele",
       "nationality": "savanna",
       "age": 19,
       "position": "CB",
@@ -34990,7 +35009,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01640": {
-      "name": "Chidi Osei",
+      "name": "Wonder Buthelezi",
       "nationality": "savanna",
       "age": 19,
       "position": "CB",
@@ -35050,7 +35069,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01643": {
-      "name": "Mensah Traoré",
+      "name": "Thamsanqa Masondo",
       "nationality": "savanna",
       "age": 29,
       "position": "RB",
@@ -35130,7 +35149,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01647": {
-      "name": "Ato Coulibaly",
+      "name": "Mthulisi Ngcobo",
       "nationality": "savanna",
       "age": 21,
       "position": "CM",
@@ -35150,7 +35169,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01648": {
-      "name": "Kojo Ndiaye",
+      "name": "Nhlanhlayethu Mnguni",
       "nationality": "savanna",
       "age": 17,
       "position": "CM",
@@ -35170,7 +35189,7 @@ const CANON = {
       "club": "KENAI_FC"
     },
     "P01649": {
-      "name": "Ekow Koné",
+      "name": "Sibonelo Gumede",
       "nationality": "savanna",
       "age": 33,
       "position": "CM",
@@ -35675,7 +35694,7 @@ const CANON = {
       "club": "BERU_FC"
     },
     "P01672": {
-      "name": "Andrei Nikitin",
+      "name": "Ivan Gallo",
       "nationality": "brislovia",
       "age": 27,
       "position": "LB",
@@ -35961,7 +35980,7 @@ const CANON = {
       "club": "FC_HYDRA"
     },
     "P01686": {
-      "name": "Tobi Fall",
+      "name": "Sifiso Mdlalose",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -36687,7 +36706,7 @@ const CANON = {
       "club": "RC_MARI_TUGA"
     },
     "P01722": {
-      "name": "Kwame Bah",
+      "name": "Mxolisi Ndaba",
       "nationality": "savanna",
       "age": 18,
       "position": "LW",
@@ -36727,7 +36746,7 @@ const CANON = {
       "club": "RC_MARI_TUGA"
     },
     "P01724": {
-      "name": "Dmitri Fedorov",
+      "name": "Sergei Rizzo",
       "nationality": "brislovia",
       "age": 32,
       "position": "RW",
@@ -36913,7 +36932,7 @@ const CANON = {
       "club": "SULTANS"
     },
     "P01733": {
-      "name": "Kafui Ndiaye",
+      "name": "Mgcini Ndlovu",
       "nationality": "savanna",
       "age": 29,
       "position": "LB",
@@ -37113,7 +37132,7 @@ const CANON = {
       "club": "SULTANS"
     },
     "P01743": {
-      "name": "Tobi Diop",
+      "name": "Bongani Khoza",
       "nationality": "savanna",
       "age": 20,
       "position": "CAM",
@@ -37539,7 +37558,7 @@ const CANON = {
       "club": "CELESTIAN_DRAGON"
     },
     "P01764": {
-      "name": "Abena Keita",
+      "name": "Nkosi Zwane",
       "nationality": "savanna",
       "age": 34,
       "position": "CM",
@@ -37743,7 +37762,7 @@ const CANON = {
       "club": "KIRI_FC"
     },
     "P01774": {
-      "name": "Igor Belov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -37845,7 +37864,7 @@ const CANON = {
       "club": "KIRI_FC"
     },
     "P01779": {
-      "name": "Kafui Touré",
+      "name": "Siyanda Zungu",
       "nationality": "savanna",
       "age": 32,
       "position": "LB",
@@ -38187,7 +38206,7 @@ const CANON = {
       "club": "HAWAII_FC"
     },
     "P01796": {
-      "name": "Ivan Rodionov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 33,
       "position": "GK",
@@ -38511,7 +38530,7 @@ const CANON = {
       "club": "HAWAII_FC"
     },
     "P01812": {
-      "name": "Mensah Bah",
+      "name": "Mduduzi Maluleke",
       "nationality": "savanna",
       "age": 34,
       "position": "CAM",
@@ -38611,7 +38630,7 @@ const CANON = {
       "club": "HAWAII_FC"
     },
     "P01817": {
-      "name": "Sergei Rodionov",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 26,
       "position": "ST",
@@ -38997,7 +39016,7 @@ const CANON = {
       "club": "PXG_FC"
     },
     "P01836": {
-      "name": "Pavel Volkov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 29,
       "position": "LW",
@@ -39017,7 +39036,7 @@ const CANON = {
       "club": "PXG_FC"
     },
     "P01837": {
-      "name": "Kwame Diop",
+      "name": "Nhlanhla Mngomezulu",
       "nationality": "savanna",
       "age": 34,
       "position": "LW",
@@ -39097,7 +39116,7 @@ const CANON = {
       "club": "PXG_FC"
     },
     "P01841": {
-      "name": "Chidi Owusu",
+      "name": "Thulani Ntanzi",
       "nationality": "savanna",
       "age": 19,
       "position": "GK",
@@ -39243,7 +39262,7 @@ const CANON = {
       "club": "FC_POLYNESIE"
     },
     "P01848": {
-      "name": "Alexei Pavlov",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 21,
       "position": "LB",
@@ -39343,7 +39362,7 @@ const CANON = {
       "club": "FC_POLYNESIE"
     },
     "P01853": {
-      "name": "Mensah Camara",
+      "name": "Simphiwe Mthombeni",
       "nationality": "savanna",
       "age": 25,
       "position": "CDM",
@@ -39563,7 +39582,7 @@ const CANON = {
       "club": "FC_POLYNESIE"
     },
     "P01864": {
-      "name": "Fiifi Traoré",
+      "name": "Khulekani Mtheku",
       "nationality": "savanna",
       "age": 27,
       "position": "GK",
@@ -39585,7 +39604,7 @@ const CANON = {
       "club": "MICRONESIE_KROSOE"
     },
     "P01865": {
-      "name": "Andrei Belov",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 18,
       "position": "GK",
@@ -39809,7 +39828,7 @@ const CANON = {
       "club": "MICRONESIE_KROSOE"
     },
     "P01876": {
-      "name": "Artyom Chesnokov",
+      "name": "Ilya Gallo",
       "nationality": "brislovia",
       "age": 32,
       "position": "CDM",
@@ -40395,7 +40414,7 @@ const CANON = {
       "club": "FC_MONACO_BERM"
     },
     "P01905": {
-      "name": "Tunde Owusu",
+      "name": "Mpho Shabalala",
       "nationality": "savanna",
       "age": 32,
       "position": "LW",
@@ -40435,7 +40454,7 @@ const CANON = {
       "club": "FC_MONACO_BERM"
     },
     "P01907": {
-      "name": "Tobi Osei",
+      "name": "Tebogo Myeni",
       "nationality": "savanna",
       "age": 21,
       "position": "RW",
@@ -40721,7 +40740,7 @@ const CANON = {
       "club": "HAITIAN_PRINCE"
     },
     "P01921": {
-      "name": "Pyotr Volkov",
+      "name": "Yuri Rizzo",
       "nationality": "brislovia",
       "age": 22,
       "position": "CDM",
@@ -40983,7 +41002,7 @@ const CANON = {
       "club": "YORKSHINE_CITY"
     },
     "P01934": {
-      "name": "Chidi Gueye",
+      "name": "Given Molefe",
       "nationality": "savanna",
       "age": 35,
       "position": "GK",
@@ -41327,7 +41346,7 @@ const CANON = {
       "club": "YORKSHINE_CITY"
     },
     "P01951": {
-      "name": "Pyotr Chesnokov",
+      "name": "Gennady Santoro",
       "nationality": "brislovia",
       "age": 21,
       "position": "LW",
@@ -41427,7 +41446,7 @@ const CANON = {
       "club": "YORKSHINE_CITY"
     },
     "P01956": {
-      "name": "Maxim Orlov",
+      "name": "Vladislav Galli",
       "nationality": "brislovia",
       "age": 20,
       "position": "GK",
@@ -41793,7 +41812,7 @@ const CANON = {
       "club": "KIRIBATI_PALMER"
     },
     "P01974": {
-      "name": "Yuri Petrov",
+      "name": "Bruno Barbieri",
       "nationality": "brislovia",
       "age": 22,
       "position": "LW",
@@ -41853,7 +41872,7 @@ const CANON = {
       "club": "KIRIBATI_PALMER"
     },
     "P01977": {
-      "name": "Nana Touré",
+      "name": "Nkululeko Radebe",
       "nationality": "savanna",
       "age": 22,
       "position": "RW",
@@ -42199,7 +42218,7 @@ const CANON = {
       "club": "MARINS_AGTS"
     },
     "P01994": {
-      "name": "Abena Bah",
+      "name": "Liyema Dube",
       "nationality": "savanna",
       "age": 22,
       "position": "CM",
@@ -42565,7 +42584,7 @@ const CANON = {
       "club": "LUVONA_FC"
     },
     "P02012": {
-      "name": "Viktor Zaitsev",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 33,
       "position": "RB",
@@ -43291,7 +43310,7 @@ const CANON = {
       "club": "AS_ALABASTA"
     },
     "P02048": {
-      "name": "Anton Orlov",
+      "name": "Alessandro Ivanov",
       "nationality": "brislovia",
       "age": 30,
       "position": "GK",
@@ -43377,7 +43396,7 @@ const CANON = {
       "club": "SANTOS"
     },
     "P02052": {
-      "name": "Igor Nikitin",
+      "name": "Marco Popov",
       "nationality": "brislovia",
       "age": 17,
       "position": "CB",
@@ -43517,7 +43536,7 @@ const CANON = {
       "club": "SANTOS"
     },
     "P02059": {
-      "name": "Abena Frimpong",
+      "name": "Lebo Gcabashe",
       "nationality": "savanna",
       "age": 21,
       "position": "CDM",
@@ -43557,7 +43576,7 @@ const CANON = {
       "club": "SANTOS"
     },
     "P02061": {
-      "name": "Kwafo Boateng",
+      "name": "Percy Cebekhulu",
       "nationality": "savanna",
       "age": 21,
       "position": "CM",
@@ -43597,7 +43616,7 @@ const CANON = {
       "club": "SANTOS"
     },
     "P02063": {
-      "name": "Vasily Zaitsev",
+      "name": "Luca Morozov",
       "nationality": "brislovia",
       "age": 26,
       "position": "CM",
@@ -43637,7 +43656,7 @@ const CANON = {
       "club": "SANTOS"
     },
     "P02065": {
-      "name": "Roman Zaitsev",
+      "name": "Matteo Mikhailov",
       "nationality": "brislovia",
       "age": 31,
       "position": "CAM",
@@ -43883,7 +43902,7 @@ const CANON = {
     },
     "P02076": {
       "name": "Lenine",
-      "nationality": "botlie",
+      "nationality": "wesfalie",
       "age": 26,
       "position": "CDM",
       "positions": [
@@ -44069,7 +44088,7 @@ const CANON = {
       "club": "AJAX_FAR_WEST"
     },
     "P02084": {
-      "name": "Ruslan Belov",
+      "name": "Viktor Santoro",
       "nationality": "brislovia",
       "age": 25,
       "position": "CB",
@@ -44189,7 +44208,7 @@ const CANON = {
       "club": "AJAX_FARWEST"
     },
     "P02090": {
-      "name": "Pavel Belov",
+      "name": "Anton Galli",
       "nationality": "brislovia",
       "age": 20,
       "position": "LW",
@@ -44535,7 +44554,7 @@ const CANON = {
       "club": "HOLE_GEULCH_MI_ROSA"
     },
     "P02107": {
-      "name": "Timur Orlov",
+      "name": "Mikhail Amato",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -44635,7 +44654,7 @@ const CANON = {
       "club": "HOLE_GEULCH_MI_ROSA"
     },
     "P02112": {
-      "name": "Emmanuel Kame",
+      "name": "Lucky Msweli",
       "nationality": "savanna",
       "age": 19,
       "position": "LW",
@@ -44715,7 +44734,7 @@ const CANON = {
       "club": "HOLE_GEULCH_MI_ROSA"
     },
     "P02116": {
-      "name": "Donaldo",
+      "name": "Kirill Vitale",
       "nationality": "brislovia",
       "age": 27,
       "position": "ST",
@@ -44735,7 +44754,7 @@ const CANON = {
       "club": "HOLE_GEULCH_MI_ROSA"
     },
     "P02117": {
-      "name": "Nikolai Pavlov",
+      "name": "Simone Greco",
       "nationality": "brislovia",
       "age": 24,
       "position": "GK",
@@ -44881,7 +44900,7 @@ const CANON = {
       "club": "BRESIL_FC"
     },
     "P02124": {
-      "name": "Artyom Rodionov",
+      "name": "Fyodor Popov",
       "nationality": "brislovia",
       "age": 27,
       "position": "LB",
@@ -44901,7 +44920,7 @@ const CANON = {
       "club": "BRESIL_FC"
     },
     "P02125": {
-      "name": "Ekow Coulibaly",
+      "name": "Ntuthuko Zulu",
       "nationality": "savanna",
       "age": 27,
       "position": "LB",
@@ -44941,7 +44960,7 @@ const CANON = {
       "club": "BRESIL_FC"
     },
     "P02127": {
-      "name": "Tobi Diallo",
+      "name": "Mondli Mabaso",
       "nationality": "savanna",
       "age": 35,
       "position": "RB",
@@ -44981,7 +45000,7 @@ const CANON = {
       "club": "BRESIL_FC"
     },
     "P02129": {
-      "name": "Sergei Kozlov",
+      "name": "Stefano Ivanov",
       "nationality": "brislovia",
       "age": 25,
       "position": "CDM",
@@ -45447,7 +45466,7 @@ const CANON = {
       "club": "PALMENNE_TIRI"
     },
     "P02152": {
-      "name": "Ivan Kozlov",
+      "name": "Roberto Popov",
       "nationality": "brislovia",
       "age": 34,
       "position": "CDM",
@@ -45973,7 +45992,7 @@ const CANON = {
       "club": "SUNNA_FC"
     },
     "P02178": {
-      "name": "Yaw Boateng",
+      "name": "Buhle Mahlangu",
       "nationality": "savanna",
       "age": 29,
       "position": "CM",
@@ -46177,7 +46196,7 @@ const CANON = {
       "club": "FC_DEZERT"
     },
     "P02188": {
-      "name": "Sergei Fedorov",
+      "name": "Vincenzo Morozov",
       "nationality": "brislovia",
       "age": 31,
       "position": "GK",
@@ -46479,7 +46498,7 @@ const CANON = {
       "club": "FC_DEZERT"
     },
     "P02203": {
-      "name": "Dmitri Chesnokov",
+      "name": "Giulio Mikhailov",
       "nationality": "brislovia",
       "age": 26,
       "position": "CAM",
@@ -46539,7 +46558,7 @@ const CANON = {
       "club": "FC_DEZERT"
     },
     "P02206": {
-      "name": "Kwame Owusu",
+      "name": "Luvo Hlongwane",
       "nationality": "savanna",
       "age": 33,
       "position": "RW",
@@ -46579,7 +46598,7 @@ const CANON = {
       "club": "FC_DEZERT"
     },
     "P02208": {
-      "name": "Ato Camara",
+      "name": "Nkosinathi Mbatha",
       "nationality": "savanna",
       "age": 27,
       "position": "ST",
@@ -47231,7 +47250,7 @@ const CANON = {
       "club": "AZUL_FC"
     },
     "P02240": {
-      "name": "Emeka Diallo",
+      "name": "Thokozani Mncwango",
       "nationality": "savanna",
       "age": 19,
       "position": "LB",
@@ -47391,7 +47410,7 @@ const CANON = {
       "club": "AZUL_FC"
     },
     "P02248": {
-      "name": "Emeka Camara",
+      "name": "Sipho Msweli",
       "nationality": "savanna",
       "age": 21,
       "position": "CAM",
@@ -47553,7 +47572,7 @@ const CANON = {
       "club": "FLAMMENGO"
     },
     "P02256": {
-      "name": "Vasily Orlov",
+      "name": "Konstantin Amato",
       "nationality": "brislovia",
       "age": 24,
       "position": "GK",
@@ -47757,7 +47776,7 @@ const CANON = {
       "club": "FLAMMENGO"
     },
     "P02266": {
-      "name": "Timur Fedorov",
+      "name": "Alexei Vitale",
       "nationality": "brislovia",
       "age": 23,
       "position": "CDM",
@@ -47877,7 +47896,7 @@ const CANON = {
       "club": "FLAMMENGO"
     },
     "P02272": {
-      "name": "Kojo Keita",
+      "name": "Lungelo Ngema",
       "nationality": "savanna",
       "age": 27,
       "position": "CAM",
@@ -48485,7 +48504,7 @@ const CANON = {
       "club": "ALLEGRO_FC"
     },
     "P02302": {
-      "name": "Tunde Ndiaye",
+      "name": "Vusi Ngubane",
       "nationality": "savanna",
       "age": 19,
       "position": "GK",
@@ -48749,7 +48768,7 @@ const CANON = {
       "club": "ALLEGRO_FC"
     },
     "P02315": {
-      "name": "Artyom Volkov",
+      "name": "Ivan Rossi",
       "nationality": "brislovia",
       "age": 23,
       "position": "CM",
@@ -48909,7 +48928,7 @@ const CANON = {
       "club": "ALLEGRO_FC"
     },
     "P02323": {
-      "name": "Abena Asante",
+      "name": "Lwandile Sithole",
       "nationality": "savanna",
       "age": 27,
       "position": "ST",
@@ -49135,7 +49154,7 @@ const CANON = {
       "club": "MEXICO_TIGERS"
     },
     "P02334": {
-      "name": "Kofi Traoré",
+      "name": "Luyanda Mthethwa",
       "nationality": "savanna",
       "age": 31,
       "position": "RB",
@@ -49255,7 +49274,7 @@ const CANON = {
       "club": "MEXICO_TIGERS"
     },
     "P02340": {
-      "name": "Emeka Frimpong",
+      "name": "Musa Mokoena",
       "nationality": "savanna",
       "age": 30,
       "position": "CAM",
@@ -49295,7 +49314,7 @@ const CANON = {
       "club": "MEXICO_TIGERS"
     },
     "P02342": {
-      "name": "Roman Lebedev",
+      "name": "Sergei Colombo",
       "nationality": "brislovia",
       "age": 33,
       "position": "LW",
@@ -49335,7 +49354,7 @@ const CANON = {
       "club": "MEXICO_TIGERS"
     },
     "P02344": {
-      "name": "Vasily Nikitin",
+      "name": "Andrea Benedetti",
       "nationality": "brislovia",
       "age": 24,
       "position": "RW",
@@ -49439,7 +49458,7 @@ const CANON = {
       "club": "SHELL_CITY"
     },
     "P02349": {
-      "name": "Nana Asante",
+      "name": "Ntokozo Sibiya",
       "nationality": "savanna",
       "age": 32,
       "position": "GK",
@@ -49461,7 +49480,7 @@ const CANON = {
       "club": "SHELL_CITY"
     },
     "P02350": {
-      "name": "Viktor Kozlov",
+      "name": "Fyodor Kulikov",
       "nationality": "brislovia",
       "age": 21,
       "position": "CB",
@@ -49641,7 +49660,7 @@ const CANON = {
       "club": "SHELL_CITY"
     },
     "P02359": {
-      "name": "Emeka Bah",
+      "name": "Themba Hadebe",
       "nationality": "savanna",
       "age": 17,
       "position": "CDM",
@@ -49861,7 +49880,7 @@ const CANON = {
       "club": "SHELL_CITY"
     },
     "P02370": {
-      "name": "Dmitri Orlov",
+      "name": "Claudio Ivanov",
       "nationality": "brislovia",
       "age": 24,
       "position": "GK",
@@ -50147,7 +50166,7 @@ const CANON = {
       "club": "FLUMINNNENSE"
     },
     "P02384": {
-      "name": "Alexei Morozov",
+      "name": "Massimo Popov",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -50327,7 +50346,7 @@ const CANON = {
       "club": "FLUMINNNENSE"
     },
     "P02393": {
-      "name": "Ato Frimpong",
+      "name": "Sello Ngwenya",
       "nationality": "savanna",
       "age": 29,
       "position": "GK",
@@ -50553,7 +50572,7 @@ const CANON = {
       "club": "DEPORTIVO_CALI"
     },
     "P02404": {
-      "name": "Seun Touré",
+      "name": "Kabelo Mthiyane",
       "nationality": "savanna",
       "age": 21,
       "position": "CDM",
@@ -50573,7 +50592,7 @@ const CANON = {
       "club": "DEPORTIVO_CALI"
     },
     "P02405": {
-      "name": "Fiifi Mensah",
+      "name": "Wiseman Mbhele",
       "nationality": "savanna",
       "age": 18,
       "position": "CDM",
@@ -50613,7 +50632,7 @@ const CANON = {
       "club": "DEPORTIVO_CALI"
     },
     "P02407": {
-      "name": "Maxim Belov",
+      "name": "Giorgio Morozov",
       "nationality": "brislovia",
       "age": 17,
       "position": "CM",
@@ -50939,7 +50958,7 @@ const CANON = {
       "club": "BOCA_JUNIORS"
     },
     "P02423": {
-      "name": "Ruslan Novikov",
+      "name": "Renzo Mikhailov",
       "nationality": "brislovia",
       "age": 19,
       "position": "LB",
@@ -51079,7 +51098,7 @@ const CANON = {
       "club": "BOCA_JUNIORS"
     },
     "P02430": {
-      "name": "Kafui Diop",
+      "name": "Mzwandile Nkosi",
       "nationality": "savanna",
       "age": 35,
       "position": "CM",
@@ -51239,7 +51258,7 @@ const CANON = {
       "club": "BOCA_JUNIORS"
     },
     "P02438": {
-      "name": "Kofi Owusu",
+      "name": "Phiwayinkosi Bhengu",
       "nationality": "savanna",
       "age": 22,
       "position": "ST",
@@ -51754,7 +51773,7 @@ const CANON = {
       "id": "P02462"
     },
     "P02463": {
-      "name": "Shakses Mokuena",
+      "name": "Dean Mkhize",
       "nationality": "savanna",
       "age": 29,
       "position": "CDM",
@@ -51864,7 +51883,7 @@ const CANON = {
       "club": "ETOILE_ROUGE_BLASE"
     },
     "P02468": {
-      "name": "Mensah Mensah",
+      "name": "Junior Hlatshwayo",
       "nationality": "savanna",
       "age": 30,
       "position": "CB",
@@ -52185,7 +52204,7 @@ const CANON = {
     },
     "P02484": {
       "name": "Sebastian Nackamura",
-      "nationality": "paystropmignon",
+      "nationality": "paysTropMignon",
       "age": 30,
       "position": "RW, LW",
       "stats": {
@@ -52290,7 +52309,7 @@ const CANON = {
       "club": "SUPA_STRIKA"
     },
     "P02489": {
-      "name": "Sefa Frim",
+      "name": "Gift Naidoo",
       "nationality": "savanna",
       "age": 21,
       "position": "CB",
@@ -52350,7 +52369,7 @@ const CANON = {
       "club": "SUPA_STRIKA"
     },
     "P02492": {
-      "name": "Ekow Owusu",
+      "name": "Sbu Mkwanazi",
       "nationality": "savanna",
       "age": 24,
       "position": "LB",
@@ -52956,7 +52975,7 @@ const CANON = {
       "club": "NACKAMA_FC"
     },
     "P02522": {
-      "name": "Ruslan Pierces",
+      "name": "Ilya Rossi",
       "nationality": "brislovia",
       "age": 22,
       "position": "CM",
@@ -52976,7 +52995,7 @@ const CANON = {
       "club": "NACKAMA_FC"
     },
     "P02523": {
-      "name": "Viktor Lebedev",
+      "name": "Yuri Colombo",
       "nationality": "brislovia",
       "age": 20,
       "position": "CM",
@@ -53482,7 +53501,7 @@ const CANON = {
       "club": "TECHNICALI_FC"
     },
     "P02548": {
-      "name": "Emeka Fall",
+      "name": "Siyabonga Maphumulo",
       "nationality": "savanna",
       "age": 29,
       "position": "CAM",
@@ -54254,7 +54273,7 @@ const CANON = {
       "club": "COSMOS_FC"
     },
     "P02586": {
-      "name": "Abena Fall",
+      "name": "Bayanda Mhlongo",
       "nationality": "savanna",
       "age": 20,
       "position": "RB",
@@ -54394,7 +54413,7 @@ const CANON = {
       "club": "COSMOS_FC"
     },
     "P02593": {
-      "name": "Gbenga Bah",
+      "name": "Yanga Xulu",
       "nationality": "savanna",
       "age": 32,
       "position": "CAM",
@@ -54414,7 +54433,7 @@ const CANON = {
       "club": "COSMOS_FC"
     },
     "P02594": {
-      "name": "Oleg Zaitsev",
+      "name": "Gennady Gallo",
       "nationality": "brislovia",
       "age": 17,
       "position": "CAM",
@@ -54514,7 +54533,7 @@ const CANON = {
       "club": "COSMOS_FC"
     },
     "P02599": {
-      "name": "Dmitri Zaitsev",
+      "name": "Vladislav Rizzo",
       "nationality": "brislovia",
       "age": 33,
       "position": "ST",
@@ -54556,7 +54575,7 @@ const CANON = {
       "club": "COLOXUS_FC"
     },
     "P02601": {
-      "name": "Dmitri Volkov",
+      "name": "Angelo Longo",
       "nationality": "brislovia",
       "age": 20,
       "position": "GK",
@@ -55346,7 +55365,7 @@ const CANON = {
       "club": "FC_KONOHA"
     },
     "P02640": {
-      "name": "Yuri Grishin",
+      "name": "Fyodor Savin",
       "nationality": "brislovia",
       "age": 17,
       "position": "CAM",
@@ -55488,7 +55507,7 @@ const CANON = {
       "club": "YOUNG_BOYS_BERNES"
     },
     "P02647": {
-      "name": "Yaw Diallo",
+      "name": "Zakhele Mthembu",
       "nationality": "savanna",
       "age": 30,
       "position": "GK",
@@ -56098,7 +56117,7 @@ const CANON = {
       "club": "FOREST_FC"
     },
     "P02677": {
-      "name": "Igor Grishin",
+      "name": "Sandro Ivanov",
       "nationality": "brislovia",
       "age": 21,
       "position": "LB",
@@ -56358,7 +56377,7 @@ const CANON = {
       "club": "FOREST_FC"
     },
     "P02690": {
-      "name": "Sergei Sokolov",
+      "name": "Vito Popov",
       "nationality": "brislovia",
       "age": 30,
       "position": "RW",
@@ -56784,7 +56803,7 @@ const CANON = {
       "club": "FC_CHRONOS"
     },
     "P02711": {
-      "name": "Gbenga Boateng",
+      "name": "Phila Ntuli",
       "nationality": "savanna",
       "age": 25,
       "position": "LW",
@@ -56824,7 +56843,7 @@ const CANON = {
       "club": "FC_CHRONOS"
     },
     "P02713": {
-      "name": "Tunde Koné",
+      "name": "Thabo Motsepe",
       "nationality": "savanna",
       "age": 22,
       "position": "RW",
@@ -57010,7 +57029,7 @@ const CANON = {
       "club": "CLUB_BRUDGE"
     },
     "P02722": {
-      "name": "Timur Grishin",
+      "name": "Rocco Morozov",
       "nationality": "brislovia",
       "age": 29,
       "position": "LB",
@@ -57130,7 +57149,7 @@ const CANON = {
       "club": "CLUB_BRUDGE"
     },
     "P02728": {
-      "name": "Yuri Lebedev",
+      "name": "Renato Mikhailov",
       "nationality": "brislovia",
       "age": 27,
       "position": "CM",
@@ -57230,7 +57249,7 @@ const CANON = {
       "club": "CLUB_BRUDGE"
     },
     "P02733": {
-      "name": "Kofi Touré",
+      "name": "Sizwe Vilakazi",
       "nationality": "savanna",
       "age": 22,
       "position": "LW",
@@ -57636,7 +57655,7 @@ const CANON = {
       "club": "AS_LYON"
     },
     "P02753": {
-      "name": "Chidi Mensah",
+      "name": "Dumisani Khumalo",
       "nationality": "savanna",
       "age": 17,
       "position": "CM",
@@ -57862,7 +57881,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02764": {
-      "name": "Sergei Volkov",
+      "name": "Viktor Gallo",
       "nationality": "brislovia",
       "age": 23,
       "position": "CB",
@@ -57962,7 +57981,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02769": {
-      "name": "Edwin Fall",
+      "name": "Sbusiso Dladla",
       "nationality": "savanna",
       "age": 30,
       "position": "LB",
@@ -58122,7 +58141,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02777": {
-      "name": "Ekow Fall",
+      "name": "Sifiso Zondo",
       "nationality": "savanna",
       "age": 20,
       "position": "CAM",
@@ -58182,7 +58201,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02780": {
-      "name": "Oleg Petrov",
+      "name": "Anton Rizzo",
       "nationality": "brislovia",
       "age": 29,
       "position": "LW",
@@ -58202,7 +58221,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02781": {
-      "name": "Kwame Asamoah",
+      "name": "Ayanda Nzuza",
       "nationality": "savanna",
       "age": 33,
       "position": "RW",
@@ -58222,7 +58241,7 @@ const CANON = {
       "club": "NORMETON_FC"
     },
     "P02782": {
-      "name": "Emeka Asante",
+      "name": "Sandile Dlamini",
       "nationality": "savanna",
       "age": 34,
       "position": "RW",
@@ -58468,7 +58487,7 @@ const CANON = {
       "club": "STANDARD_LIEGE"
     },
     "P02794": {
-      "name": "Yuri Kozlov",
+      "name": "Mikhail Santoro",
       "nationality": "brislovia",
       "age": 20,
       "position": "RB",
@@ -58708,7 +58727,7 @@ const CANON = {
       "club": "STANDARD_LIEGE"
     },
     "P02806": {
-      "name": "Maxim Kozlov",
+      "name": "Kirill Galli",
       "nationality": "brislovia",
       "age": 29,
       "position": "ST",
@@ -58792,9 +58811,8 @@ const CANON = {
         "MYSTICONS"
       ],
       "league": "ANDRO_LEAGUE"
-    }
-
- {
+    },
+    {
       "name": "Vapir Derby",
       "clubs": [
         "SSC_NESERT_WERT",
@@ -58872,4 +58890,4 @@ const CANON = {
   }
 };
 
-if (typeof module !== 'undefined') module.exports = CANON;
+if (typeof module !== "undefined") module.exports = CANON;
