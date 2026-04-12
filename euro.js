@@ -41,15 +41,15 @@ const EuroEngine = (() => {
     canterlot:     { name: 'Canterlot',      flag: '✨',  color: '#a855f7', abbr: 'CAN' },
     wakanda:       { name: 'Wakanda',        flag: '🌿',  color: '#16a34a', abbr: 'WAK' },
     // 9 nations fictives pour compléter le tableau à 24
-    nordheim:      { name: 'Nordheim',       flag: '❄️',  color: '#bfdbfe', abbr: 'NOR' },
-    solaris:       { name: 'Solaris',        flag: '☀️',  color: '#fde68a', abbr: 'SOL' },
-    aquateria:     { name: 'Aquateria',      flag: '💧',  color: '#67e8f9', abbr: 'AQU' },
-    ferria:        { name: 'Ferria',         flag: '⚙️',  color: '#9ca3af', abbr: 'FER' },
-    luminia:       { name: 'Luminia',        flag: '🔮',  color: '#c4b5fd', abbr: 'LUM' },
-    sylvara:       { name: 'Sylvara',        flag: '🌲',  color: '#4ade80', abbr: 'SYL' },
-    pyraxis:       { name: 'Pyraxis',        flag: '🔥',  color: '#f97316', abbr: 'PYR' },
-    celestia:      { name: 'Celestia',       flag: '🌟',  color: '#fcd34d', abbr: 'CEL' },
-    abyssia:       { name: 'Abyssia',        flag: '🌑',  color: '#374151', abbr: 'ABY' },
+    romania:      { name: 'Romania',       flag: '❄️',  color: '#bfdbfe', abbr: 'NOR' },
+    bulga:       { name: 'Bulga',        flag: '☀️',  color: '#fde68a', abbr: 'SOL' },
+    botlie:     { name: 'Botlie',      flag: '💧',  color: '#67e8f9', abbr: 'AQU' },
+    vietnam:        { name: 'Vietnam',         flag: '⚙️',  color: '#9ca3af', abbr: 'FER' },
+    yakistan:       { name: 'Yakistan',        flag: '🔮',  color: '#c4b5fd', abbr: 'LUM' },
+    balouthikistan:       { name: 'Baloutchikistan',        flag: '🌲',  color: '#4ade80', abbr: 'SYL' },
+    nordheim:       { name: 'Nordheim',        flag: '🔥',  color: '#f97316', abbr: 'PYR' },
+    Masalie:      { name: 'Masalie',       flag: '🌟',  color: '#fcd34d', abbr: 'CEL' },
+    abyssinie:       { name: 'Abyssinie',        flag: '🌑',  color: '#374151', abbr: 'ABY' },
   };
 
   const PHASE_SEQUENCE = ['idle','groups','r16','qf','sf','final','complete'];
@@ -113,7 +113,7 @@ const EuroEngine = (() => {
         league:   'EURO',
         nation:   natId,
         stadium:  'Euro Arena',
-        capacity: 50000,
+        capacity: 90000,
       };
 
       // Assignation des joueurs à leur nation
